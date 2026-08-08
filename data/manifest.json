@@ -1,0 +1,40 @@
+{
+ "files": [
+  {
+   "schoolGrade": 1,
+   "kankenLevel": 10,
+   "masterVersion": 12,
+   "path": "data/grade1.json"
+  },
+  {
+   "schoolGrade": 2,
+   "kankenLevel": 9,
+   "masterVersion": 13,
+   "path": "data/grade2.json"
+  },
+  {
+   "schoolGrade": 3,
+   "kankenLevel": 8,
+   "masterVersion": 13,
+   "path": "data/grade3.json"
+  },
+  {
+   "schoolGrade": 4,
+   "kankenLevel": 7,
+   "masterVersion": 14,
+   "path": "data/grade4.json"
+  },
+  {
+   "schoolGrade": 5,
+   "kankenLevel": 6,
+   "masterVersion": 14,
+   "path": "data/grade5.json"
+  },
+  {
+   "schoolGrade": 6,
+   "kankenLevel": 5,
+   "masterVersion": 13,
+   "path": "data/grade6.json"
+  }
+ ]
+}

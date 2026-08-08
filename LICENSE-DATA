@@ -1,0 +1,67 @@
+# データのライセンス / Licence for the data files
+
+対象 / Applies to:
+
+- `data/dist/grade*.json`
+- `data/manual/*.json`
+- `static/data/**`（`npm run sync:data` が生成。git非追跡）
+- 公開サイトに同梱される上記由来のJSON
+
+これらのファイルは、下記の第三者データベースから派生した二次的著作物です。
+These files are adapted material derived from the third-party databases listed
+below, and are distributed under:
+
+**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
+https://creativecommons.org/licenses/by-sa/4.0/
+（日本語: https://creativecommons.org/licenses/by-sa/4.0/deed.ja ）
+
+再配布する場合は、出典の表示・ライセンスの明示・改変した旨の明示を行い、
+同じ CC BY-SA 4.0（または互換ライセンス）で公開してください。
+
+---
+
+## 出典 / Sources
+
+### KANJIDIC2 — CC BY-SA 4.0
+Copyright (C) Electronic Dictionary Research and Development Group
+https://www.edrdg.org/wiki/index.php/KANJIDIC_Project
+利用箇所: 漢字、音訓の読み、学年（`misc.grade`）
+
+### JMdict — CC BY-SA 4.0
+Copyright (C) Electronic Dictionary Research and Development Group
+https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project
+利用箇所: 熟語の読み、語の一般性・重要度の判定材料（`common` / `misc` タグ）
+
+上記2件について、EDRDG の定める表示:
+
+> This publication has included material from the JMdict and KANJIDIC2
+> dictionary files in accordance with the licence provisions of the Electronic
+> Dictionaries Research Group. See https://www.edrdg.org/
+
+EDRDG のライセンス条項: https://www.edrdg.org/edrdg/licence.html
+
+### graded-idioms-ja — CC BY 4.0
+Copyright (C) marmooo
+https://github.com/marmooo/graded-idioms-ja
+利用箇所: 学年別の熟語候補と出現頻度（importance の材料）
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+### 漢字の掲載順（参照のみ / reference only）
+- ちびむすドリル https://happylilac.net/ — 小学1〜4年の掲載順
+- benricho.org https://benricho.org/kanji/kyoikukanji/ — 小学5〜6年の掲載順
+
+掲載順の並び（配列としての順序）のみを参照しており、これらのサイトの文章・
+画像・PDFそのものは同梱していません。
+
+---
+
+## 改変の内容 / Modifications
+
+原データをそのまま同梱しているのではなく、以下の加工を行っています。
+
+1. 小学生の漢字学習に必要な項目のみを抽出し、アプリ独自のJSONスキーマへ再構成した
+2. 熟語を学習に適した内容へ選別した（難易度・使用頻度・不適切表現・同音衝突の観点で
+   非表示フラグを付与。判定基準は `doc/idiom-screening-guide.md`）
+3. 原データに存在しなかった熟語・送り仮名の語句を独自に追加した
+   （`data/manual/manual-idioms.json`）
+4. 漢字の並び順を上記「掲載順」に差し替えた

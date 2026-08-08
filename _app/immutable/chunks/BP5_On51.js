@@ -1,0 +1,1 @@
+var e={A:`バッチリ`,B:`もうすこし`,C:`がんばろう`},t={A:`text-emerald-600`,B:`text-amber-600`,C:`text-rose-600`,D:`text-gray-500`},n={A:`bg-emerald-600`,B:`bg-amber-500`,C:`bg-rose-500`,D:`bg-gray-400`};export{e as n,t as r,n as t};

@@ -1,0 +1,1 @@
+import{s as e}from"./C8xvaNhy.js";async function t(t,n){let r=await t.get(`settings`,`app`);return r?.perLevel[n]??r?.defaults??e}async function n(t){return(await t.get(`settings`,`app`))?.defaults??e}export{t as n,n as t};

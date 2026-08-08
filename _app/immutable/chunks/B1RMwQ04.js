@@ -1,0 +1,1 @@
+var e=`漢字学習アプリ`,t=`1.0.0`;export{t as n,e as t};

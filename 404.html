@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="text-scale" content="scale" />
+		<link rel="apple-touch-icon" href="/learning-kanji/apple-touch-icon.png" />
+		<!-- /favicon.ico の暗黙リクエスト対策。SVGアイコンは +layout.svelte の svelte:head で指定 -->
+		<link rel="icon" href="/learning-kanji/favicon.ico" sizes="any" />
+		<!-- PWAとしてインストール可能にするために必要。@vite-pwa/sveltekit は SPA 構成では
+		     head へ自動注入しないので手で書く（Service Worker の登録は +layout.svelte 側） -->
+		<link rel="manifest" href="/learning-kanji/manifest.webmanifest" />
+		<link href="/learning-kanji/_app/immutable/entry/start.BzGzWLev.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/B-4jKmO0.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/CYcUoQsT.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/BuFlayix.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/entry/app.BgJ19bm3.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/DYl5dUZ5.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/nodes/0.DdUuRw1E.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/C8xvaNhy.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/Bq1TL_um.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/DpyA5ob-.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/BGBeZhGN.js" rel="modulepreload">
+		
+		<link href="/learning-kanji/_app/immutable/assets/0.ByiIWm1O.css" rel="stylesheet">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_12oj9pt = {
+						base: "/learning-kanji",
+						assets: "/learning-kanji"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/learning-kanji/_app/immutable/entry/start.BzGzWLev.js"),
+						import("/learning-kanji/_app/immutable/entry/app.BgJ19bm3.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
