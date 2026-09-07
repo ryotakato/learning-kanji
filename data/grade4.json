@@ -1,5 +1,5 @@
 {
- "masterVersion": 14,
+ "masterVersion": 17,
  "kankenLevel": 7,
  "schoolGrade": 4,
  "orderSource": "chibimusu poster order (PDF抽出, benricho五十音と全位置一致で二重検証/機・械手修正済)",
@@ -976,6 +976,39 @@
       {
        "char": "県",
        "grade": 3
+      }
+     ]
+    },
+    {
+     "id": "i_611B_051",
+     "surface": "愛媛のみかん",
+     "reading": "えひめのみかん",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "愛",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "媛",
+       "grade": 4
+      },
+      {
+       "char": "の",
+       "grade": null
+      },
+      {
+       "char": "み",
+       "grade": null
+      },
+      {
+       "char": "か",
+       "grade": null
+      },
+      {
+       "char": "ん",
+       "grade": null
       }
      ]
     }
@@ -6393,7 +6426,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_5A9B_002",
@@ -6413,6 +6447,39 @@
       {
        "char": "県",
        "grade": 3
+      }
+     ]
+    },
+    {
+     "id": "i_5A9B_003",
+     "surface": "愛媛のみかん",
+     "reading": "えひめのみかん",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "愛",
+       "grade": 4
+      },
+      {
+       "char": "媛",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "の",
+       "grade": null
+      },
+      {
+       "char": "み",
+       "grade": null
+      },
+      {
+       "char": "か",
+       "grade": null
+      },
+      {
+       "char": "ん",
+       "grade": null
       }
      ]
     }
@@ -9370,7 +9437,8 @@
        "char": "長",
        "grade": 2
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_8AB2_003",
@@ -9408,8 +9476,7 @@
        "char": "金",
        "grade": 1
       }
-     ],
-     "hidden": "hard"
+     ]
     },
     {
      "id": "i_8AB2_005",
@@ -10198,6 +10265,39 @@
       },
       {
        "char": "県",
+       "grade": 3
+      }
+     ]
+    },
+    {
+     "id": "i_8CC0_010",
+     "surface": "滋賀のびわ湖",
+     "reading": "しがのびわこ",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "滋",
+       "grade": 4
+      },
+      {
+       "char": "賀",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "の",
+       "grade": null
+      },
+      {
+       "char": "び",
+       "grade": null
+      },
+      {
+       "char": "わ",
+       "grade": null
+      },
+      {
+       "char": "湖",
        "grade": 3
       }
      ]
@@ -13813,7 +13913,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_5B98_002",
@@ -15056,6 +15157,31 @@
       }
      ],
      "hidden": "hard"
+    },
+    {
+     "id": "i_5B98_068",
+     "surface": "けい察官",
+     "reading": "けいさつかん",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "け",
+       "grade": null
+      },
+      {
+       "char": "い",
+       "grade": null
+      },
+      {
+       "char": "察",
+       "grade": 4
+      },
+      {
+       "char": "官",
+       "grade": 4,
+       "isTarget": true
+      }
+     ]
     }
    ]
   },
@@ -18612,7 +18738,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_5C90_002",
@@ -18779,8 +18906,7 @@
        "char": "少",
        "grade": 2
       }
-     ],
-     "hidden": "hard"
+     ]
     },
     {
      "id": "i_5E0C_004",
@@ -18945,7 +19071,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "rare"
     }
    ]
   },
@@ -24371,7 +24498,8 @@
        "char": "員",
        "grade": 3
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_8B70_003",
@@ -24427,7 +24555,8 @@
        "char": "会",
        "grade": 2
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_8B70_006",
@@ -24505,7 +24634,8 @@
        "char": "院",
        "grade": 3
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_8B70_010",
@@ -25793,7 +25923,8 @@
        "char": "人",
        "grade": 1
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_6C42_002",
@@ -25948,6 +26079,39 @@
      "reading": "もとめる",
      "importance": 3,
      "parts": [
+      {
+       "char": "求",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "め",
+       "grade": null
+      },
+      {
+       "char": "る",
+       "grade": null
+      }
+     ]
+    },
+    {
+     "id": "i_6C42_011",
+     "surface": "答えを求める",
+     "reading": "こたえをもとめる",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "答",
+       "grade": 2
+      },
+      {
+       "char": "え",
+       "grade": null
+      },
+      {
+       "char": "を",
+       "grade": null
+      },
       {
        "char": "求",
        "grade": 4,
@@ -29038,7 +29202,8 @@
        "char": "定",
        "grade": 3
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_5354_006",
@@ -29479,6 +29644,39 @@
       {
        "char": "力",
        "grade": 1
+      }
+     ]
+    },
+    {
+     "id": "i_5354_028",
+     "surface": "サッカー協会",
+     "reading": "さっかーきょうかい",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "サ",
+       "grade": null
+      },
+      {
+       "char": "ッ",
+       "grade": null
+      },
+      {
+       "char": "カ",
+       "grade": null
+      },
+      {
+       "char": "ー",
+       "grade": null
+      },
+      {
+       "char": "協",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "会",
+       "grade": 2
       }
      ]
     }
@@ -33858,8 +34056,7 @@
        "grade": 4,
        "isTarget": true
       }
-     ],
-     "hidden": "hard"
+     ]
     },
     {
      "id": "i_7FA4_004",
@@ -33894,7 +34091,8 @@
        "char": "集",
        "grade": 3
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_7FA4_006",
@@ -34347,7 +34545,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_5F84_004",
@@ -34509,6 +34708,31 @@
       },
       {
        "char": "直",
+       "grade": 2
+      },
+      {
+       "char": "径",
+       "grade": 4,
+       "isTarget": true
+      }
+     ]
+    },
+    {
+     "id": "i_5F84_013",
+     "surface": "円の半径",
+     "reading": "えんのはんけい",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "円",
+       "grade": 1
+      },
+      {
+       "char": "の",
+       "grade": null
+      },
+      {
+       "char": "半",
        "grade": 2
       },
       {
@@ -41964,7 +42188,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_4F50_003",
@@ -41981,7 +42206,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_4F50_004",
@@ -42129,6 +42355,27 @@
       },
       {
        "char": "県",
+       "grade": 3
+      }
+     ]
+    },
+    {
+     "id": "i_4F50_012",
+     "surface": "佐ど島",
+     "reading": "さどがしま",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "佐",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "ど",
+       "grade": null
+      },
+      {
+       "char": "島",
        "grade": 3
       }
      ]
@@ -42812,7 +43059,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_5DEE_036",
@@ -43016,6 +43264,27 @@
       },
       {
        "char": "つ",
+       "grade": null
+      }
+     ]
+    },
+    {
+     "id": "i_5DEE_046",
+     "surface": "物差し",
+     "reading": "ものさし",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "物",
+       "grade": 3
+      },
+      {
+       "char": "差",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "し",
        "grade": null
       }
      ]
@@ -43369,7 +43638,8 @@
        "char": "種",
        "grade": 4
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_83DC_019",
@@ -46054,7 +46324,8 @@
        "char": "夜",
        "grade": 2
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_6628_004",
@@ -47679,6 +47950,31 @@
        "isTarget": true
       }
      ]
+    },
+    {
+     "id": "i_5BDF_011",
+     "surface": "けい察官",
+     "reading": "けいさつかん",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "け",
+       "grade": null
+      },
+      {
+       "char": "い",
+       "grade": null
+      },
+      {
+       "char": "察",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "官",
+       "grade": 4
+      }
+     ]
     }
    ]
   },
@@ -47845,7 +48141,8 @@
        "char": "院",
        "grade": 3
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_53C2_009",
@@ -52580,7 +52877,8 @@
        "char": "神",
        "grade": 3
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_6C0F_005",
@@ -52703,6 +53001,35 @@
        "grade": 3
       }
      ]
+    },
+    {
+     "id": "i_6C0F_011",
+     "surface": "げん氏物語",
+     "reading": "げんじものがたり",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "げ",
+       "grade": null
+      },
+      {
+       "char": "ん",
+       "grade": null
+      },
+      {
+       "char": "氏",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "物",
+       "grade": 3
+      },
+      {
+       "char": "語",
+       "grade": 2
+      }
+     ]
     }
    ]
   },
@@ -52752,7 +53079,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_53F8_003",
@@ -55571,7 +55899,8 @@
        "char": "養",
        "grade": 4
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_6ECB_002",
@@ -55648,6 +55977,39 @@
       },
       {
        "char": "県",
+       "grade": 3
+      }
+     ]
+    },
+    {
+     "id": "i_6ECB_006",
+     "surface": "滋賀のびわ湖",
+     "reading": "しがのびわこ",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "滋",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "賀",
+       "grade": 4
+      },
+      {
+       "char": "の",
+       "grade": null
+      },
+      {
+       "char": "び",
+       "grade": null
+      },
+      {
+       "char": "わ",
+       "grade": null
+      },
+      {
+       "char": "湖",
        "grade": 3
       }
      ]
@@ -56224,7 +56586,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_9E7F_004",
@@ -56369,8 +56732,7 @@
        "grade": 4,
        "isTarget": true
       }
-     ],
-     "hidden": "hard"
+     ]
     },
     {
      "id": "i_9E7F_011",
@@ -57568,7 +57930,8 @@
        "char": "物",
        "grade": 3
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_501F_018",
@@ -57646,6 +58009,27 @@
       {
        "char": "る",
        "grade": null
+      }
+     ]
+    },
+    {
+     "id": "i_501F_022",
+     "surface": "借り物",
+     "reading": "かりもの",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "借",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "り",
+       "grade": null
+      },
+      {
+       "char": "物",
+       "grade": 3
       }
      ]
     }
@@ -58218,7 +58602,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_7A2E_031",
@@ -59165,6 +59550,31 @@
       },
       {
        "char": "キ",
+       "grade": null
+      }
+     ]
+    },
+    {
+     "id": "i_7A2E_080",
+     "surface": "種をまく",
+     "reading": "たねをまく",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "種",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "を",
+       "grade": null
+      },
+      {
+       "char": "ま",
+       "grade": null
+      },
+      {
+       "char": "く",
        "grade": null
       }
      ]
@@ -66072,7 +66482,8 @@
        "char": "下",
        "grade": 1
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_81E3_006",
@@ -66337,6 +66748,35 @@
       }
      ],
      "hidden": "hard"
+    },
+    {
+     "id": "i_81E3_020",
+     "surface": "そう理大臣",
+     "reading": "そうりだいじん",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "そ",
+       "grade": null
+      },
+      {
+       "char": "う",
+       "grade": null
+      },
+      {
+       "char": "理",
+       "grade": 2
+      },
+      {
+       "char": "大",
+       "grade": 1
+      },
+      {
+       "char": "臣",
+       "grade": 4,
+       "isTarget": true
+      }
+     ]
     }
    ]
   },
@@ -73166,7 +73606,8 @@
        "char": "木",
        "grade": 1
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_7A4D_018",
@@ -73556,6 +73997,27 @@
       {
        "char": "む",
        "grade": null
+      }
+     ]
+    },
+    {
+     "id": "i_7A4D_038",
+     "surface": "積み木",
+     "reading": "つみき",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "積",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "み",
+       "grade": null
+      },
+      {
+       "char": "木",
+       "grade": 1
       }
      ]
     }
@@ -86895,7 +87357,8 @@
        "char": "数",
        "grade": 2
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_5358_023",
@@ -99003,7 +99466,8 @@
        "char": "落",
        "grade": 3
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_5948_002",
@@ -99084,6 +99548,31 @@
       {
        "char": "県",
        "grade": 3
+      }
+     ]
+    },
+    {
+     "id": "i_5948_006",
+     "surface": "奈良公園",
+     "reading": "ならこうえん",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "奈",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "良",
+       "grade": 4
+      },
+      {
+       "char": "公",
+       "grade": 2
+      },
+      {
+       "char": "園",
+       "grade": 2
       }
      ]
     }
@@ -102435,7 +102924,8 @@
        "char": "物",
        "grade": 3
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_535A_005",
@@ -102664,6 +103154,23 @@
       }
      ],
      "hidden": "hard"
+    },
+    {
+     "id": "i_535A_017",
+     "surface": "博多",
+     "reading": "はかた",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "博",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "多",
+       "grade": 2
+      }
+     ]
     }
    ]
   },
@@ -102844,7 +103351,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_98EF_003",
@@ -102918,7 +103426,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_98EF_007",
@@ -103029,8 +103538,7 @@
        "char": "前",
        "grade": 2
       }
-     ],
-     "hidden": "hard"
+     ]
     },
     {
      "id": "i_98EF_013",
@@ -116955,7 +117463,8 @@
        "char": "所",
        "grade": 3
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_4FBF_005",
@@ -132260,7 +132769,8 @@
        "grade": 4,
        "isTarget": true
       }
-     ]
+     ],
+     "hidden": "rare"
     },
     {
      "id": "i_990A_012",
@@ -135825,6 +136335,31 @@
       {
        "char": "子",
        "grade": 1
+      }
+     ]
+    },
+    {
+     "id": "i_826F_043",
+     "surface": "奈良公園",
+     "reading": "ならこうえん",
+     "importance": 3,
+     "parts": [
+      {
+       "char": "奈",
+       "grade": 4
+      },
+      {
+       "char": "良",
+       "grade": 4,
+       "isTarget": true
+      },
+      {
+       "char": "公",
+       "grade": 2
+      },
+      {
+       "char": "園",
+       "grade": 2
       }
      ]
     }

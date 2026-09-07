@@ -21,7 +21,7 @@
   {
    "schoolGrade": 4,
    "kankenLevel": 7,
-   "masterVersion": 14,
+   "masterVersion": 17,
    "path": "data/grade4.json"
   },
   {
@@ -33,7 +33,7 @@
   {
    "schoolGrade": 6,
    "kankenLevel": 5,
-   "masterVersion": 13,
+   "masterVersion": 14,
    "path": "data/grade6.json"
   }
  ]

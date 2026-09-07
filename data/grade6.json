@@ -1,5 +1,5 @@
 {
- "masterVersion": 13,
+ "masterVersion": 14,
  "kankenLevel": 5,
  "schoolGrade": 6,
  "orderSource": "benricho.org gojuon (テキスト抽出不能PDFの代替, 集合検証済・tavi目視確認)",
@@ -52248,7 +52248,8 @@
        "char": "院",
        "grade": 3
       }
-     ]
+     ],
+     "hidden": "hard"
     },
     {
      "id": "i_8846_005",
