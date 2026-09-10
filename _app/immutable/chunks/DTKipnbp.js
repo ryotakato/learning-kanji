@@ -1,1 +1,0 @@
-import{n as e}from"./BuFlayix.js";import{c as t}from"./C8xvaNhy.js";function n(t,n){throw new e(t,n)}function r(e){let r=Number(e);return(!Number.isInteger(r)||!t.includes(r))&&n(404,`不正な級です: ${e}`),r}export{r as t};

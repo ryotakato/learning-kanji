@@ -1,5 +1,5 @@
 {
- "masterVersion": 14,
+ "masterVersion": 16,
  "kankenLevel": 6,
  "schoolGrade": 5,
  "orderSource": "benricho.org gojuon (テキスト抽出不能PDFの代替, 集合検証済・tavi目視確認)",
@@ -8,7 +8,9 @@
   "idioms": "marmooo/graded-idioms-ja (CC BY 4.0)",
   "readings": "JMdict via scriptin/jmdict-simplified (CC BY-SA 4.0)",
   "excludedIdioms": "出題除外オーバーレイ: data/manual/excluded-idioms.json",
-  "manualIdioms": "手動補完（都道府県名・訓読み送り仮名展開）: data/manual/manual-idioms.json"
+  "manualIdioms": "手動補完（都道府県名・訓読み送り仮名展開）: data/manual/manual-idioms.json",
+  "correctedIdioms": "読み・重みの訂正オーバーレイ: data/manual/corrected-idioms.json",
+  "readingUnits": "読みテストの出題単位（自動算出）: scripts/build-reading-units.ts"
  },
  "kanji": [
   {
@@ -44,7 +46,12 @@
        "char": "力",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "あつりょく"
+     }
     },
     {
      "id": "i_5727_002",
@@ -61,7 +68,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けつあつ"
+     }
     },
     {
      "id": "i_5727_003",
@@ -78,7 +90,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "でんあつ"
+     }
     },
     {
      "id": "i_5727_004",
@@ -117,7 +134,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きあつ"
+     }
     },
     {
      "id": "i_5727_006",
@@ -210,7 +232,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ていきあつ"
+     }
     },
     {
      "id": "i_5727_011",
@@ -285,7 +312,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "こうきあつ"
+     }
     },
     {
      "id": "i_5727_015",
@@ -1235,7 +1267,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅうい"
+     }
     },
     {
      "id": "i_56F2_002",
@@ -1342,7 +1379,12 @@
        "char": "う",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "かこ"
+     }
     },
     {
      "id": "i_56F2_008",
@@ -1359,7 +1401,12 @@
        "char": "む",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "かこ"
+     }
     }
    ]
   },
@@ -1464,7 +1511,12 @@
        "char": "住",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "いじゅう"
+     }
     },
     {
      "id": "i_79FB_006",
@@ -1913,7 +1965,12 @@
        "char": "動",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 2,
+      "reading": "いどう"
+     }
     },
     {
      "id": "i_79FB_029",
@@ -1938,7 +1995,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "うつ"
+     }
     },
     {
      "id": "i_79FB_030",
@@ -1963,7 +2025,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "うつ"
+     }
     }
    ]
   },
@@ -1996,7 +2063,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げんいん"
+     }
     },
     {
      "id": "i_56E0_002",
@@ -2121,7 +2193,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はいいん"
+     }
     },
     {
      "id": "i_56E0_009",
@@ -2156,7 +2233,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょういん"
+     }
     },
     {
      "id": "i_56E0_011",
@@ -2564,7 +2646,12 @@
        "char": "遠",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "えいえん"
+     }
     },
     {
      "id": "i_6C38_002",
@@ -2581,7 +2668,12 @@
        "char": "久",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "えいきゅう"
+     }
     },
     {
      "id": "i_6C38_003",
@@ -2816,7 +2908,12 @@
        "char": "歯",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "えいきゅうし"
+     }
     }
    ]
   },
@@ -2849,7 +2946,12 @@
        "char": "業",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "えいぎょう"
+     }
     },
     {
      "id": "i_55B6_002",
@@ -2866,7 +2968,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けいえい"
+     }
     },
     {
      "id": "i_55B6_003",
@@ -4069,7 +4176,12 @@
        "char": "む",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "いとな"
+     }
     }
    ]
   },
@@ -4296,7 +4408,12 @@
        "char": "的",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "えいせいてき"
+     }
     },
     {
      "id": "i_885B_012",
@@ -4834,7 +4951,12 @@
        "char": "隊",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "じえいたい"
+     }
     }
    ]
   },
@@ -4868,7 +4990,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ようい"
+     }
     },
     {
      "id": "i_6613_002",
@@ -4885,7 +5012,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼうえき"
+     }
     },
     {
      "id": "i_6613_003",
@@ -5014,7 +5146,12 @@
        "char": "港",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ぼうえきこう"
+     }
     },
     {
      "id": "i_6613_010",
@@ -5250,7 +5387,12 @@
        "char": "題",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "やさ"
+     }
     }
    ]
   },
@@ -5283,7 +5425,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "りえき"
+     }
     },
     {
      "id": "i_76CA_002",
@@ -5358,7 +5505,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ゆうえき"
+     }
     },
     {
      "id": "i_76CA_006",
@@ -5639,7 +5791,12 @@
        "char": "虫",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "えきちゅう"
+     }
     },
     {
      "id": "i_76CA_021",
@@ -5769,7 +5926,12 @@
        "char": "鳥",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "えきちょう"
+     }
     },
     {
      "id": "i_76CA_028",
@@ -5835,7 +5997,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けつえき"
+     }
     },
     {
      "id": "i_6DB2_002",
@@ -5852,7 +6019,12 @@
        "char": "体",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "えきたい"
+     }
     },
     {
      "id": "i_6DB2_003",
@@ -5873,7 +6045,12 @@
        "char": "型",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "けつえきがた"
+     }
     },
     {
      "id": "i_6DB2_004",
@@ -6006,7 +6183,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しょうどくえき"
+     }
     },
     {
      "id": "i_6DB2_011",
@@ -6410,7 +6592,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅつえん"
+     }
     },
     {
      "id": "i_6F14_002",
@@ -6481,7 +6668,12 @@
        "char": "技",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "えんぎ"
+     }
     },
     {
      "id": "i_6F14_006",
@@ -6578,7 +6770,12 @@
        "char": "説",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "えんぜつ"
+     }
     },
     {
      "id": "i_6F14_011",
@@ -7578,7 +7775,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "たいおう"
+     }
     },
     {
      "id": "i_5FDC_002",
@@ -7595,7 +7797,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はんのう"
+     }
     },
     {
      "id": "i_5FDC_003",
@@ -7612,7 +7819,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "いちおう"
+     }
     },
     {
      "id": "i_5FDC_004",
@@ -7629,7 +7841,12 @@
        "char": "用",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おうよう"
+     }
     },
     {
      "id": "i_5FDC_005",
@@ -7718,7 +7935,12 @@
        "char": "急",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おうきゅう"
+     }
     },
     {
      "id": "i_5FDC_010",
@@ -8329,7 +8551,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "こた"
+     }
     }
    ]
   },
@@ -8364,7 +8591,12 @@
        "char": "復",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おうふく"
+     }
     },
     {
      "id": "i_5F80_002",
@@ -8381,7 +8613,12 @@
        "char": "来",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おうらい"
+     }
     },
     {
      "id": "i_5F80_003",
@@ -8416,7 +8653,12 @@
        "char": "路",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おうろ"
+     }
     },
     {
      "id": "i_5F80_005",
@@ -8732,7 +8974,12 @@
        "char": "花",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おうか"
+     }
     },
     {
      "id": "i_685C_003",
@@ -8749,7 +8996,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "よざくら"
+     }
     },
     {
      "id": "i_685C_004",
@@ -8788,7 +9040,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "やえざくら"
+     }
     },
     {
      "id": "i_685C_006",
@@ -8805,7 +9062,12 @@
        "char": "色",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さくらいろ"
+     }
     },
     {
      "id": "i_685C_007",
@@ -8884,7 +9146,12 @@
        "char": "線",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "さくらぜんせん"
+     }
     },
     {
      "id": "i_685C_011",
@@ -9171,7 +9438,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "さくら"
+     }
     }
    ]
   },
@@ -9205,7 +9477,12 @@
        "char": "能",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かのう"
+     }
     },
     {
      "id": "i_53EF_002",
@@ -9226,7 +9503,12 @@
        "char": "性",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "かのうせい"
+     }
     },
     {
      "id": "i_53EF_003",
@@ -9243,7 +9525,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きょか"
+     }
     },
     {
      "id": "i_53EF_004",
@@ -9264,7 +9551,12 @@
        "char": "能",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ふかのう"
+     }
     },
     {
      "id": "i_53EF_005",
@@ -10024,7 +10316,12 @@
        "char": "面",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かめん"
+     }
     },
     {
      "id": "i_4EEE_002",
@@ -10077,7 +10374,12 @@
        "char": "説",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かせつ"
+     }
     },
     {
      "id": "i_4EEE_005",
@@ -10156,7 +10458,12 @@
        "char": "名",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ひらがな"
+     }
     },
     {
      "id": "i_4EEE_009",
@@ -10835,7 +11142,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひょうか"
+     }
     },
     {
      "id": "i_4FA1_002",
@@ -10852,7 +11164,12 @@
        "char": "格",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かかく"
+     }
     },
     {
      "id": "i_4FA1_003",
@@ -10981,7 +11298,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶっか"
+     }
     },
     {
      "id": "i_4FA1_010",
@@ -10998,7 +11320,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ていか"
+     }
     },
     {
      "id": "i_4FA1_011",
@@ -11802,7 +12129,12 @@
        "char": "川",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かせん"
+     }
     },
     {
      "id": "i_6CB3_002",
@@ -11819,7 +12151,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぎんが"
+     }
     },
     {
      "id": "i_6CB3_003",
@@ -11854,7 +12191,12 @@
        "char": "原",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かわら"
+     }
     },
     {
      "id": "i_6CB3_005",
@@ -11889,7 +12231,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "うんが"
+     }
     },
     {
      "id": "i_6CB3_007",
@@ -11906,7 +12253,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひょうが"
+     }
     },
     {
      "id": "i_6CB3_008",
@@ -12391,7 +12743,12 @@
        "char": "口",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 2,
+      "reading": "かこう"
+     }
     }
    ]
   },
@@ -12428,7 +12785,12 @@
        "char": "去",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かこ"
+     }
     },
     {
      "id": "i_904E_002",
@@ -12445,7 +12807,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けいか"
+     }
     },
     {
      "id": "i_904E_003",
@@ -12556,7 +12923,12 @@
        "char": "数",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "かはんすう"
+     }
     },
     {
      "id": "i_904E_009",
@@ -13281,7 +13653,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "す"
+     }
     },
     {
      "id": "i_904E_046",
@@ -13302,7 +13679,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "す"
+     }
     },
     {
      "id": "i_904E_047",
@@ -13331,7 +13713,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 2,
+      "reading": "つうか"
+     }
     }
    ]
   },
@@ -13363,7 +13750,12 @@
        "char": "適",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かいてき"
+     }
     },
     {
      "id": "i_5FEB_002",
@@ -13398,7 +13790,12 @@
        "char": "速",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かいそく"
+     }
     },
     {
      "id": "i_5FEB_004",
@@ -13433,7 +13830,12 @@
        "char": "晴",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かいせい"
+     }
     },
     {
      "id": "i_5FEB_006",
@@ -13966,7 +14368,12 @@
        "char": "い",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "こころよ"
+     }
     }
    ]
   },
@@ -14005,7 +14412,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "りかい"
+     }
     },
     {
      "id": "i_89E3_002",
@@ -14022,7 +14434,12 @@
        "char": "決",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かいけつ"
+     }
     },
     {
      "id": "i_89E3_003",
@@ -14039,7 +14456,12 @@
        "char": "説",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かいせつ"
+     }
     },
     {
      "id": "i_89E3_004",
@@ -14092,7 +14514,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいかい"
+     }
     },
     {
      "id": "i_89E3_007",
@@ -14127,7 +14554,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶんかい"
+     }
     },
     {
      "id": "i_89E3_009",
@@ -15642,7 +16074,12 @@
        "char": "く",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "と"
+     }
     },
     {
      "id": "i_89E3_085",
@@ -15675,7 +16112,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "と"
+     }
     }
    ]
   },
@@ -15708,7 +16150,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かかく"
+     }
     },
     {
      "id": "i_683C_002",
@@ -15761,7 +16208,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ごうかく"
+     }
     },
     {
      "id": "i_683C_005",
@@ -15778,7 +16230,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいかく"
+     }
     },
     {
      "id": "i_683C_006",
@@ -15969,7 +16426,12 @@
        "char": "子",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうし"
+     }
     },
     {
      "id": "i_683C_016",
@@ -15986,7 +16448,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "たいかく"
+     }
     },
     {
      "id": "i_683C_017",
@@ -17164,7 +17631,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいかく"
+     }
     },
     {
      "id": "i_78BA_003",
@@ -17181,7 +17653,12 @@
        "char": "実",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かくじつ"
+     }
     },
     {
      "id": "i_78BA_004",
@@ -17702,7 +18179,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "たし"
+     }
     },
     {
      "id": "i_78BA_031",
@@ -17739,7 +18221,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かくりつ"
+     }
     }
    ]
   },
@@ -17771,7 +18258,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きんがく"
+     }
     },
     {
      "id": "i_984D_002",
@@ -17842,7 +18334,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぜんがく"
+     }
     },
     {
      "id": "i_984D_006",
@@ -17859,7 +18356,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はんがく"
+     }
     },
     {
      "id": "i_984D_007",
@@ -18624,7 +19126,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ひたい"
+     }
     }
    ]
   },
@@ -18690,7 +19197,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しんかん"
+     }
     },
     {
      "id": "i_520A_004",
@@ -18743,7 +19255,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ちょうかん"
+     }
     },
     {
      "id": "i_520A_007",
@@ -18760,7 +19277,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ゆうかん"
+     }
     },
     {
      "id": "i_520A_008",
@@ -19169,7 +19691,12 @@
        "char": "ガ",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅうかん"
+     }
     }
    ]
   },
@@ -19205,7 +19732,12 @@
        "char": "線",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しんかんせん"
+     }
     },
     {
      "id": "i_5E79_002",
@@ -19438,7 +19970,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "みき"
+     }
     },
     {
      "id": "i_5E79_015",
@@ -19467,7 +20004,12 @@
        "char": "部",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 2,
+      "reading": "かんぶ"
+     }
     }
    ]
   },
@@ -19500,7 +20042,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅうかん"
+     }
     },
     {
      "id": "i_6163_002",
@@ -19611,7 +20158,12 @@
        "char": "句",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "かんようく"
+     }
     },
     {
      "id": "i_6163_008",
@@ -19782,7 +20334,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "な"
+     }
     }
    ]
   },
@@ -19804,7 +20361,7 @@
     {
      "id": "i_773C_001",
      "surface": "眼鏡",
-     "reading": "メガネ",
+     "reading": "めがね",
      "importance": 3,
      "parts": [
       {
@@ -19816,7 +20373,12 @@
        "char": "鏡",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "めがね"
+     }
     },
     {
      "id": "i_773C_002",
@@ -19833,7 +20395,12 @@
        "char": "科",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "がんか"
+     }
     },
     {
      "id": "i_773C_003",
@@ -19922,7 +20489,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "にくがん"
+     }
     },
     {
      "id": "i_773C_008",
@@ -20123,7 +20695,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふくがん"
+     }
     },
     {
      "id": "i_773C_019",
@@ -20340,7 +20917,12 @@
        "char": "鏡",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "むしめがね"
+     }
     },
     {
      "id": "i_773C_030",
@@ -21366,7 +21948,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいき"
+     }
     },
     {
      "id": "i_7D00_002",
@@ -21427,7 +22014,12 @@
        "char": "前",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "きげんぜん"
+     }
     },
     {
      "id": "i_7D00_005",
@@ -21484,7 +22076,12 @@
        "char": "元",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きげん"
+     }
     },
     {
      "id": "i_7D00_008",
@@ -21789,7 +22386,12 @@
        "char": "本",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きほん"
+     }
     },
     {
      "id": "i_57FA_002",
@@ -21806,7 +22408,12 @@
        "char": "準",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きじゅん"
+     }
     },
     {
      "id": "i_57FA_003",
@@ -21845,7 +22452,12 @@
        "char": "地",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きち"
+     }
     },
     {
      "id": "i_57FA_005",
@@ -22544,7 +23156,12 @@
        "char": "く",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "もと"
+     }
     }
    ]
   },
@@ -22578,7 +23195,12 @@
        "char": "付",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きふ"
+     }
     },
     {
      "id": "i_5BC4_002",
@@ -22675,7 +23297,12 @@
        "char": "虫",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "きせいちゅう"
+     }
     },
     {
      "id": "i_5BC4_007",
@@ -23148,7 +23775,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "よ"
+     }
     },
     {
      "id": "i_5BC4_032",
@@ -23173,7 +23805,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "よ"
+     }
     }
    ]
   },
@@ -23275,7 +23912,12 @@
        "char": "則",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きそく"
+     }
     },
     {
      "id": "i_898F_006",
@@ -23390,7 +24032,12 @@
        "char": "則",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ふきそく"
+     }
     },
     {
      "id": "i_898F_012",
@@ -23425,7 +24072,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょうぎ"
+     }
     },
     {
      "id": "i_898F_014",
@@ -23877,7 +24529,12 @@
        "char": "ぶ",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "よろこ"
+     }
     },
     {
      "id": "i_559C_006",
@@ -23924,7 +24581,12 @@
        "char": "き",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "き"
+     }
     },
     {
      "id": "i_559C_008",
@@ -23945,7 +24607,12 @@
        "char": "び",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おおよろこ"
+     }
     }
    ]
   },
@@ -23977,7 +24644,12 @@
        "char": "術",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぎじゅつ"
+     }
     },
     {
      "id": "i_6280_002",
@@ -23994,7 +24666,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きょうぎ"
+     }
     },
     {
      "id": "i_6280_003",
@@ -24011,7 +24688,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "えんぎ"
+     }
     },
     {
      "id": "i_6280_004",
@@ -24108,7 +24790,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "とくぎ"
+     }
     },
     {
      "id": "i_6280_009",
@@ -24383,7 +25070,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "とくいわざ"
+     }
     },
     {
      "id": "i_6280_023",
@@ -25287,7 +25979,12 @@
        "char": "務",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぎむ"
+     }
     },
     {
      "id": "i_7FA9_003",
@@ -25358,7 +26055,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいぎ"
+     }
     },
     {
      "id": "i_7FA9_007",
@@ -25987,7 +26689,12 @@
        "char": "語",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "るいぎご"
+     }
     },
     {
      "id": "i_7FA9_040",
@@ -26092,7 +26799,12 @@
        "char": "語",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "たいぎご"
+     }
     },
     {
      "id": "i_7FA9_045",
@@ -26891,7 +27603,12 @@
        "char": "転",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぎゃくてん"
+     }
     },
     {
      "id": "i_9006_002",
@@ -26930,7 +27647,12 @@
        "char": "果",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ぎゃくこうか"
+     }
     },
     {
      "id": "i_9006_004",
@@ -28027,7 +28749,12 @@
        "char": "さ",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "さか"
+     }
     },
     {
      "id": "i_9006_061",
@@ -28048,7 +28775,12 @@
        "char": "う",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "さか"
+     }
     }
    ]
   },
@@ -28081,7 +28813,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "えいきゅう"
+     }
     },
     {
      "id": "i_4E45_002",
@@ -28248,7 +28985,12 @@
        "char": "走",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "じきゅうそう"
+     }
     },
     {
      "id": "i_4E45_010",
@@ -28332,7 +29074,12 @@
        "char": "り",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ひさ"
+     }
     },
     {
      "id": "i_4E45_014",
@@ -28353,7 +29100,12 @@
        "char": "歯",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "えいきゅうし"
+     }
     }
    ]
   },
@@ -28386,7 +29138,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふっきゅう"
+     }
     },
     {
      "id": "i_65E7_002",
@@ -28738,7 +29495,12 @@
        "char": "器",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "きゅうせっき"
+     }
     },
     {
      "id": "i_65E7_021",
@@ -29518,7 +30280,12 @@
        "char": "急",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きゅうきゅう"
+     }
     },
     {
      "id": "i_6551_002",
@@ -29535,7 +30302,12 @@
        "char": "助",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きゅうじょ"
+     }
     },
     {
      "id": "i_6551_003",
@@ -29852,7 +30624,12 @@
        "char": "う",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "すく"
+     }
     }
    ]
   },
@@ -29945,7 +30722,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じゅうきょ"
+     }
     },
     {
      "id": "i_5C45_005",
@@ -29980,7 +30762,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "とりい"
+     }
     },
     {
      "id": "i_5C45_007",
@@ -30045,7 +30832,12 @@
        "char": "所",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "いばしょ"
+     }
     },
     {
      "id": "i_5C45_010",
@@ -30098,7 +30890,12 @@
        "char": "間",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "いま"
+     }
     },
     {
      "id": "i_5C45_013",
@@ -31093,7 +31890,12 @@
        "char": "可",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きょか"
+     }
     },
     {
      "id": "i_8A31_002",
@@ -31110,7 +31912,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "とっきょ"
+     }
     },
     {
      "id": "i_8A31_003",
@@ -31537,7 +32344,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ゆる"
+     }
     }
    ]
   },
@@ -31588,7 +32400,12 @@
        "char": "界",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きょうかい"
+     }
     },
     {
      "id": "i_5883_003",
@@ -31605,7 +32422,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こっきょう"
+     }
     },
     {
      "id": "i_5883_004",
@@ -31640,7 +32462,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けんざかい"
+     }
     },
     {
      "id": "i_5883_006",
@@ -31675,7 +32502,12 @@
        "char": "目",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さかいめ"
+     }
     },
     {
      "id": "i_5883_008",
@@ -31995,7 +32827,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "へいきん"
+     }
     },
     {
      "id": "i_5747_002",
@@ -32074,7 +32911,12 @@
        "char": "点",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "へいきんてん"
+     }
     },
     {
      "id": "i_5747_006",
@@ -32237,7 +33079,12 @@
        "char": "台",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "へいきんだい"
+     }
     },
     {
      "id": "i_5747_014",
@@ -32395,7 +33242,12 @@
        "char": "止",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きんし"
+     }
     },
     {
      "id": "i_7981_002",
@@ -32448,7 +33300,12 @@
        "char": "物",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きんもつ"
+     }
     },
     {
      "id": "i_7981_005",
@@ -33077,7 +33934,12 @@
        "char": "止",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 4,
+      "reading": "たちいりきんし"
+     }
     }
    ]
   },
@@ -33107,7 +33969,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "もんく"
+     }
     },
     {
      "id": "i_53E5_002",
@@ -33142,7 +34009,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ごく"
+     }
     },
     {
      "id": "i_53E5_004",
@@ -33253,7 +34125,12 @@
        "char": "点",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "くとうてん"
+     }
     },
     {
      "id": "i_53E5_010",
@@ -33274,7 +34151,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "かんようく"
+     }
     },
     {
      "id": "i_53E5_011",
@@ -33855,7 +34737,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おおがた"
+     }
     },
     {
      "id": "i_578B_002",
@@ -33872,7 +34759,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こがた"
+     }
     },
     {
      "id": "i_578B_003",
@@ -33889,7 +34781,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しんがた"
+     }
     },
     {
      "id": "i_578B_004",
@@ -33968,7 +34865,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "けつえきがた"
+     }
     },
     {
      "id": "i_578B_008",
@@ -35356,7 +36258,12 @@
        "char": "験",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けいけん"
+     }
     },
     {
      "id": "i_7D4C_002",
@@ -35373,7 +36280,12 @@
        "char": "営",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けいえい"
+     }
     },
     {
      "id": "i_7D4C_003",
@@ -35390,7 +36302,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しんけい"
+     }
     },
     {
      "id": "i_7D4C_004",
@@ -35407,7 +36324,12 @@
        "char": "過",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けいか"
+     }
     },
     {
      "id": "i_7D4C_005",
@@ -35830,7 +36752,12 @@
        "char": "度",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けいど"
+     }
     },
     {
      "id": "i_7D4C_027",
@@ -35909,7 +36836,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "とうけい"
+     }
     },
     {
      "id": "i_7D4C_031",
@@ -36884,7 +37816,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "へ"
+     }
     }
    ]
   },
@@ -36916,7 +37853,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいけつ"
+     }
     },
     {
      "id": "i_6F54_002",
@@ -36937,7 +37879,12 @@
        "char": "感",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "せいけつかん"
+     }
     },
     {
      "id": "i_6F54_003",
@@ -36954,7 +37901,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふけつ"
+     }
     },
     {
      "id": "i_6F54_004",
@@ -37007,7 +37959,12 @@
        "char": "い",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "いさぎよ"
+     }
     }
    ]
   },
@@ -37057,7 +38014,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょうけん"
+     }
     },
     {
      "id": "i_4EF6_003",
@@ -37074,7 +38036,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じけん"
+     }
     },
     {
      "id": "i_4EF6_004",
@@ -37189,7 +38156,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "むじょうけん"
+     }
     },
     {
      "id": "i_4EF6_010",
@@ -37523,7 +38495,12 @@
        "char": "料",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ほけんりょう"
+     }
     },
     {
      "id": "i_967A_003",
@@ -37588,7 +38565,12 @@
        "char": "証",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ほけんしょう"
+     }
     },
     {
      "id": "i_967A_006",
@@ -37729,7 +38711,12 @@
        "char": "い",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "けわ"
+     }
     }
    ]
   },
@@ -37761,7 +38748,12 @@
        "char": "査",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けんさ"
+     }
     },
     {
      "id": "i_691C_002",
@@ -37796,7 +38788,12 @@
        "char": "定",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けんてい"
+     }
     },
     {
      "id": "i_691C_004",
@@ -37813,7 +38810,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "てんけん"
+     }
     },
     {
      "id": "i_691C_005",
@@ -38322,7 +39324,12 @@
        "char": "温",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けんおん"
+     }
     },
     {
      "id": "i_691C_032",
@@ -38976,7 +39983,12 @@
        "char": "定",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げんてい"
+     }
     },
     {
      "id": "i_9650_002",
@@ -38993,7 +40005,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいげん"
+     }
     },
     {
      "id": "i_9650_003",
@@ -39010,7 +40027,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きげん"
+     }
     },
     {
      "id": "i_9650_004",
@@ -39027,7 +40049,12 @@
        "char": "界",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げんかい"
+     }
     },
     {
      "id": "i_9650_005",
@@ -39646,7 +40673,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "かぎ"
+     }
     }
    ]
   },
@@ -39681,7 +40713,12 @@
        "char": "在",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げんざい"
+     }
     },
     {
      "id": "i_73FE_002",
@@ -39698,7 +40735,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひょうげん"
+     }
     },
     {
      "id": "i_73FE_003",
@@ -39751,7 +40793,12 @@
        "char": "実",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げんじつ"
+     }
     },
     {
      "id": "i_73FE_006",
@@ -39768,7 +40815,12 @@
        "char": "代",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げんだい"
+     }
     },
     {
      "id": "i_73FE_007",
@@ -39821,7 +40873,12 @@
        "char": "象",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げんしょう"
+     }
     },
     {
      "id": "i_73FE_010",
@@ -39838,7 +40895,12 @@
        "char": "金",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げんきん"
+     }
     },
     {
      "id": "i_73FE_011",
@@ -41315,7 +42377,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 4,
+      "length": 1,
+      "reading": "あらわ"
+     }
     }
    ]
   },
@@ -41348,7 +42415,12 @@
        "char": "少",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げんしょう"
+     }
     },
     {
      "id": "i_6E1B_002",
@@ -41509,7 +42581,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぞうげん"
+     }
     },
     {
      "id": "i_6E1B_011",
@@ -42264,7 +43341,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "へ"
+     }
     },
     {
      "id": "i_6E1B_051",
@@ -42297,7 +43379,12 @@
        "char": "点",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 4,
+      "length": 2,
+      "reading": "げんてん"
+     }
     },
     {
      "id": "i_6E1B_052",
@@ -42326,7 +43413,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "へ"
+     }
     }
    ]
   },
@@ -42360,7 +43452,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じこ"
+     }
     },
     {
      "id": "i_6545_002",
@@ -42519,7 +43616,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "だいじこ"
+     }
     },
     {
      "id": "i_6545_010",
@@ -42916,7 +44018,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 4,
+      "reading": "こうつうじこ"
+     }
     }
    ]
   },
@@ -43005,7 +44112,12 @@
        "char": "性",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こせい"
+     }
     },
     {
      "id": "i_500B_005",
@@ -43102,7 +44214,12 @@
        "char": "数",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こすう"
+     }
     },
     {
      "id": "i_500B_010",
@@ -43137,7 +44254,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "なんこ"
+     }
     },
     {
      "id": "i_500B_012",
@@ -43545,7 +44667,12 @@
        "char": "由",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こじん"
+     }
     }
    ]
   },
@@ -43577,7 +44704,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ほご"
+     }
     },
     {
      "id": "i_8B77_002",
@@ -43598,7 +44730,12 @@
        "char": "士",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "べんごし"
+     }
     },
     {
      "id": "i_8B77_003",
@@ -43619,7 +44756,12 @@
        "char": "者",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ほごしゃ"
+     }
     },
     {
      "id": "i_8B77_004",
@@ -44112,7 +45254,12 @@
        "char": "色",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ほごしょく"
+     }
     },
     {
      "id": "i_8B77_029",
@@ -44394,7 +45541,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ゆうこう"
+     }
     },
     {
      "id": "i_52B9_003",
@@ -44629,7 +45781,12 @@
        "char": "果",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ぎゃくこうか"
+     }
     },
     {
      "id": "i_52B9_015",
@@ -45050,7 +46207,12 @@
        "char": "く",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "き"
+     }
     },
     {
      "id": "i_52B9_036",
@@ -45079,7 +46241,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうか"
+     }
     },
     {
      "id": "i_52B9_037",
@@ -45108,7 +46275,12 @@
        "char": "い",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうりつ"
+     }
     }
    ]
   },
@@ -45235,7 +46407,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おんこう"
+     }
     },
     {
      "id": "i_539A_007",
@@ -45292,7 +46469,12 @@
        "char": "紙",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "あつがみ"
+     }
     },
     {
      "id": "i_539A_010",
@@ -45309,7 +46491,12 @@
        "char": "着",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "あつぎ"
+     }
     },
     {
      "id": "i_539A_011",
@@ -45636,7 +46823,12 @@
        "char": "い",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶあつ"
+     }
     },
     {
      "id": "i_539A_029",
@@ -45657,7 +46849,12 @@
        "char": "本",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "あつ"
+     }
     }
    ]
   },
@@ -45707,7 +46904,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "のうこう"
+     }
     },
     {
      "id": "i_8015_003",
@@ -45970,7 +47172,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "たがや"
+     }
     },
     {
      "id": "i_8015_017",
@@ -45999,7 +47206,12 @@
        "char": "作",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 2,
+      "reading": "こうさく"
+     }
     },
     {
      "id": "i_8015_018",
@@ -46024,7 +47236,12 @@
        "char": "地",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 2,
+      "reading": "こうち"
+     }
     }
    ]
   },
@@ -46054,7 +47271,12 @@
        "char": "空",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうくう"
+     }
     },
     {
      "id": "i_822A_002",
@@ -46111,7 +47333,12 @@
        "char": "路",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうろ"
+     }
     },
     {
      "id": "i_822A_005",
@@ -46204,7 +47431,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けっこう"
+     }
     },
     {
      "id": "i_822A_010",
@@ -46823,7 +48055,12 @@
        "char": "海",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 2,
+      "reading": "こうかい"
+     }
     }
    ]
   },
@@ -46891,7 +48128,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "たんこう"
+     }
     },
     {
      "id": "i_9271_004",
@@ -46908,7 +48150,12 @@
        "char": "石",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうせき"
+     }
     },
     {
      "id": "i_9271_005",
@@ -47353,7 +48600,12 @@
        "char": "山",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 2,
+      "reading": "こうざん"
+     }
     },
     {
      "id": "i_9271_028",
@@ -47386,7 +48638,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうぶつ"
+     }
     }
    ]
   },
@@ -47419,7 +48676,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けっこう"
+     }
     },
     {
      "id": "i_69CB_002",
@@ -47436,7 +48698,12 @@
        "char": "造",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうぞう"
+     }
     },
     {
      "id": "i_69CB_003",
@@ -47453,7 +48720,12 @@
        "char": "成",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうせい"
+     }
     },
     {
      "id": "i_69CB_004",
@@ -47932,7 +49204,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "かま"
+     }
     }
    ]
   },
@@ -47966,7 +49243,12 @@
        "char": "味",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きょうみ"
+     }
     },
     {
      "id": "i_8208_002",
@@ -47983,7 +49265,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふっこう"
+     }
     },
     {
      "id": "i_8208_003",
@@ -48446,7 +49733,12 @@
        "char": "い",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "きょうみぶか"
+     }
     }
    ]
   },
@@ -48494,7 +49786,12 @@
        "char": "師",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうし"
+     }
     },
     {
      "id": "i_8B1B_003",
@@ -48511,7 +49808,12 @@
        "char": "習",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうしゅう"
+     }
     },
     {
      "id": "i_8B1B_004",
@@ -48648,7 +49950,12 @@
        "char": "堂",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうどう"
+     }
     },
     {
      "id": "i_8B1B_011",
@@ -49150,7 +50457,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ほうこく"
+     }
     },
     {
      "id": "i_544A_002",
@@ -49167,7 +50479,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうこく"
+     }
     },
     {
      "id": "i_544A_003",
@@ -49224,7 +50541,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "よこく"
+     }
     },
     {
      "id": "i_544A_006",
@@ -49811,7 +51133,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "つ"
+     }
     }
    ]
   },
@@ -49847,7 +51174,12 @@
        "char": "雑",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こんざつ"
+     }
     },
     {
      "id": "i_6DF7_002",
@@ -49864,7 +51196,12 @@
        "char": "合",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こんごう"
+     }
     },
     {
      "id": "i_6DF7_003",
@@ -50549,7 +51886,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 4,
+      "length": 1,
+      "reading": "ま"
+     }
     },
     {
      "id": "i_6DF7_038",
@@ -50578,7 +51920,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "ま"
+     }
     }
    ]
   },
@@ -50608,7 +51955,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ちょうさ"
+     }
     },
     {
      "id": "i_67FB_002",
@@ -50625,7 +51977,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けんさ"
+     }
     },
     {
      "id": "i_67FB_003",
@@ -50642,7 +51999,12 @@
        "char": "定",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さてい"
+     }
     },
     {
      "id": "i_67FB_004",
@@ -51101,7 +52463,12 @@
        "char": "生",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいせい"
+     }
     },
     {
      "id": "i_518D_002",
@@ -51154,7 +52521,12 @@
        "char": "開",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいかい"
+     }
     },
     {
      "id": "i_518D_005",
@@ -51629,7 +53001,12 @@
        "char": "年",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "さらいねん"
+     }
     },
     {
      "id": "i_518D_029",
@@ -51650,7 +53027,12 @@
        "char": "週",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "さらいしゅう"
+     }
     },
     {
      "id": "i_518D_030",
@@ -52181,7 +53563,12 @@
        "char": "月",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "さらいげつ"
+     }
     },
     {
      "id": "i_518D_056",
@@ -52653,7 +54040,12 @@
        "char": "び",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ふたた"
+     }
     }
    ]
   },
@@ -52685,7 +54077,12 @@
        "char": "害",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいがい"
+     }
     },
     {
      "id": "i_707D_002",
@@ -52702,7 +54099,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼうさい"
+     }
     },
     {
      "id": "i_707D_003",
@@ -52719,7 +54121,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かさい"
+     }
     },
     {
      "id": "i_707D_004",
@@ -52978,7 +54385,12 @@
        "char": "い",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "わざわ"
+     }
     }
    ]
   },
@@ -53010,7 +54422,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふさい"
+     }
     },
     {
      "id": "i_59BB_002",
@@ -53045,7 +54462,12 @@
        "char": "子",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいし"
+     }
     },
     {
      "id": "i_59BB_004",
@@ -53512,7 +54934,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "つま"
+     }
     }
    ]
   },
@@ -53544,7 +54971,12 @@
        "char": "用",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいよう"
+     }
     },
     {
      "id": "i_63A1_002",
@@ -53561,7 +54993,12 @@
        "char": "取",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいしゅ"
+     }
     },
     {
      "id": "i_63A1_003",
@@ -53578,7 +55015,12 @@
        "char": "点",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいてん"
+     }
     },
     {
      "id": "i_63A1_004",
@@ -53595,7 +55037,12 @@
        "char": "集",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいしゅう"
+     }
     },
     {
      "id": "i_63A1_005",
@@ -53982,7 +55429,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 4,
+      "length": 1,
+      "reading": "と"
+     }
     }
    ]
   },
@@ -54015,7 +55467,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じっさい"
+     }
     },
     {
      "id": "i_969B_002",
@@ -54090,7 +55547,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "まぎわ"
+     }
     },
     {
      "id": "i_969B_006",
@@ -54173,7 +55635,12 @@
        "char": "線",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "こくさいせん"
+     }
     },
     {
      "id": "i_969B_010",
@@ -54742,7 +56209,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げんざい"
+     }
     },
     {
      "id": "i_5728_002",
@@ -54817,7 +56289,12 @@
        "char": "地",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しょざいち"
+     }
     },
     {
      "id": "i_5728_006",
@@ -54852,7 +56329,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふざい"
+     }
     },
     {
      "id": "i_5728_008",
@@ -55079,7 +56561,12 @@
        "char": "生",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ざいこうせい"
+     }
     },
     {
      "id": "i_5728_020",
@@ -55963,7 +57450,12 @@
        "char": "産",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ざいさん"
+     }
     },
     {
      "id": "i_8CA1_002",
@@ -56002,7 +57494,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ぶんかざい"
+     }
     },
     {
      "id": "i_8CA1_004",
@@ -56037,7 +57534,12 @@
        "char": "布",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいふ"
+     }
     },
     {
      "id": "i_8CA1_006",
@@ -56843,7 +58345,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はんざい"
+     }
     },
     {
      "id": "i_7F6A_002",
@@ -56900,7 +58407,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "むざい"
+     }
     },
     {
      "id": "i_7F6A_005",
@@ -56917,7 +58429,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ゆうざい"
+     }
     },
     {
      "id": "i_7F6A_006",
@@ -57598,7 +59115,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "つみ"
+     }
     },
     {
      "id": "i_7F6A_041",
@@ -57623,7 +59145,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "つみ"
+     }
     }
    ]
   },
@@ -57732,7 +59259,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "あんさつ"
+     }
     },
     {
      "id": "i_6BBA_006",
@@ -57749,7 +59281,12 @@
        "char": "虫",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さっちゅう"
+     }
     },
     {
      "id": "i_6BBA_007",
@@ -57820,7 +59357,12 @@
        "char": "気",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さっき"
+     }
     },
     {
      "id": "i_6BBA_011",
@@ -58157,7 +59699,12 @@
        "char": "点",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "じさつてん"
+     }
     },
     {
      "id": "i_6BBA_028",
@@ -58268,7 +59815,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ころ"
+     }
     }
    ]
   },
@@ -58320,7 +59872,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふくざつ"
+     }
     },
     {
      "id": "i_96D1_003",
@@ -58355,7 +59912,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こんざつ"
+     }
     },
     {
      "id": "i_96D1_005",
@@ -58390,7 +59952,12 @@
        "char": "草",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ざっそう"
+     }
     },
     {
      "id": "i_96D1_007",
@@ -58461,7 +60028,12 @@
        "char": "音",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ざつおん"
+     }
     },
     {
      "id": "i_96D1_011",
@@ -58504,7 +60076,12 @@
        "char": "林",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ぞうきばやし"
+     }
     },
     {
      "id": "i_96D1_013",
@@ -59392,7 +60969,12 @@
        "char": "素",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さんそ"
+     }
     },
     {
      "id": "i_9178_002",
@@ -59409,7 +60991,12 @@
        "char": "化",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さんか"
+     }
     },
     {
      "id": "i_9178_003",
@@ -59426,7 +61013,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "たんさん"
+     }
     },
     {
      "id": "i_9178_004",
@@ -59461,7 +61053,12 @@
        "char": "性",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さんせい"
+     }
     },
     {
      "id": "i_9178_006",
@@ -60142,7 +61739,12 @@
        "char": "素",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 5,
+      "reading": "にさんかたんそ"
+     }
     }
    ]
   },
@@ -60175,7 +61777,12 @@
        "char": "成",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さんせい"
+     }
     },
     {
      "id": "i_8CDB_002",
@@ -60376,7 +61983,12 @@
        "char": "歌",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "さんびか"
+     }
     },
     {
      "id": "i_8CDB_013",
@@ -60433,7 +62045,12 @@
        "char": "成",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ふさんせい"
+     }
     },
     {
      "id": "i_8CDB_016",
@@ -60509,7 +62126,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "べんごし"
+     }
     },
     {
      "id": "i_58EB_003",
@@ -60526,7 +62148,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はかせ"
+     }
     },
     {
      "id": "i_58EB_004",
@@ -60583,7 +62210,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "へいし"
+     }
     },
     {
      "id": "i_58EB_007",
@@ -60600,7 +62232,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶし"
+     }
     },
     {
      "id": "i_58EB_008",
@@ -60639,7 +62276,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "りきし"
+     }
     },
     {
      "id": "i_58EB_010",
@@ -62207,7 +63849,12 @@
        "char": "持",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しじ"
+     }
     },
     {
      "id": "i_652F_002",
@@ -62224,7 +63871,12 @@
        "char": "配",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しはい"
+     }
     },
     {
      "id": "i_652F_003",
@@ -62371,7 +64023,12 @@
        "char": "度",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "したく"
+     }
     },
     {
      "id": "i_652F_011",
@@ -62432,7 +64089,12 @@
        "char": "流",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しりゅう"
+     }
     },
     {
      "id": "i_652F_014",
@@ -63131,7 +64793,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ささ"
+     }
     }
    ]
   },
@@ -63161,7 +64828,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "れきし"
+     }
     },
     {
      "id": "i_53F2_002",
@@ -63182,7 +64854,12 @@
        "char": "的",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "れきしてき"
+     }
     },
     {
      "id": "i_53F2_003",
@@ -63257,7 +64934,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "せかいし"
+     }
     },
     {
      "id": "i_53F2_007",
@@ -64649,7 +66331,12 @@
        "char": "上",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "れきしじょう"
+     }
     },
     {
      "id": "i_53F2_077",
@@ -64734,7 +66421,12 @@
        "char": "望",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しぼう"
+     }
     },
     {
      "id": "i_5FD7_003",
@@ -65135,7 +66827,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "こころざし"
+     }
     },
     {
      "id": "i_5FD7_024",
@@ -65152,7 +66849,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "こころざ"
+     }
     },
     {
      "id": "i_5FD7_025",
@@ -65177,7 +66879,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 2,
+      "reading": "いし"
+     }
     }
    ]
   },
@@ -65209,7 +66916,12 @@
        "char": "豆",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "えだまめ"
+     }
     },
     {
      "id": "i_679D_002",
@@ -65226,7 +66938,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こえだ"
+     }
     },
     {
      "id": "i_679D_003",
@@ -65531,7 +67248,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "えだ"
+     }
     }
    ]
   },
@@ -65563,7 +67285,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "いし"
+     }
     },
     {
      "id": "i_5E2B_002",
@@ -65580,7 +67307,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうし"
+     }
     },
     {
      "id": "i_5E2B_003",
@@ -65597,7 +67329,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きょうし"
+     }
     },
     {
      "id": "i_5E2B_004",
@@ -65614,7 +67351,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "りょうし"
+     }
     },
     {
      "id": "i_5E2B_005",
@@ -67478,7 +69220,12 @@
        "char": "館",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しりょうかん"
+     }
     },
     {
      "id": "i_8CC7_011",
@@ -67513,7 +69260,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶっし"
+     }
     },
     {
      "id": "i_8CC7_013",
@@ -68150,7 +69902,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しりょう"
+     }
     }
    ]
   },
@@ -68182,7 +69939,12 @@
        "char": "育",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しいく"
+     }
     },
     {
      "id": "i_98FC_002",
@@ -68329,7 +70091,12 @@
        "char": "主",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "か"
+     }
     },
     {
      "id": "i_98FC_010",
@@ -68372,7 +70139,12 @@
        "char": "う",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "か"
+     }
     }
    ]
   },
@@ -68405,7 +70177,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひょうじ"
+     }
     },
     {
      "id": "i_793A_002",
@@ -68422,7 +70199,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しじ"
+     }
     },
     {
      "id": "i_793A_003",
@@ -68863,7 +70645,12 @@
        "char": "語",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しじご"
+     }
     },
     {
      "id": "i_793A_026",
@@ -69024,7 +70811,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "しめ"
+     }
     }
    ]
   },
@@ -69057,7 +70849,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "るいじ"
+     }
     },
     {
      "id": "i_4F3C_002",
@@ -69096,7 +70893,12 @@
        "char": "絵",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "にがおえ"
+     }
     },
     {
      "id": "i_4F3C_004",
@@ -69401,7 +71203,12 @@
        "char": "う",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "にあ"
+     }
     },
     {
      "id": "i_4F3C_019",
@@ -69426,7 +71233,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "に"
+     }
     }
    ]
   },
@@ -69459,7 +71271,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "いしき"
+     }
     },
     {
      "id": "i_8B58_002",
@@ -69476,7 +71293,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ちしき"
+     }
     },
     {
      "id": "i_8B58_003",
@@ -69493,7 +71315,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょうしき"
+     }
     },
     {
      "id": "i_8B58_004",
@@ -69528,7 +71355,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひょうしき"
+     }
     },
     {
      "id": "i_8B58_006",
@@ -70191,7 +72023,12 @@
        "char": "問",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しつもん"
+     }
     },
     {
      "id": "i_8CEA_002",
@@ -70208,7 +72045,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶっしつ"
+     }
     },
     {
      "id": "i_8CEA_003",
@@ -70243,7 +72085,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいしつ"
+     }
     },
     {
      "id": "i_8CEA_005",
@@ -70604,7 +72451,12 @@
        "char": "量",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しつりょう"
+     }
     },
     {
      "id": "i_8CEA_024",
@@ -72139,7 +73991,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "いなか"
+     }
     },
     {
      "id": "i_820E_002",
@@ -72156,7 +74013,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうしゃ"
+     }
     },
     {
      "id": "i_820E_003",
@@ -72311,7 +74173,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぎゅうしゃ"
+     }
     },
     {
      "id": "i_820E_011",
@@ -72729,7 +74596,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かんしゃ"
+     }
     },
     {
      "id": "i_8B1D_002",
@@ -72826,7 +74698,12 @@
        "char": "状",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "かんしゃじょう"
+     }
     },
     {
      "id": "i_8B1D_007",
@@ -72843,7 +74720,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げっしゃ"
+     }
     },
     {
      "id": "i_8B1D_008",
@@ -73097,7 +74979,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "あやま"
+     }
     }
    ]
   },
@@ -73130,7 +75017,12 @@
        "char": "業",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じゅぎょう"
+     }
     },
     {
      "id": "i_6388_002",
@@ -73165,7 +75057,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "でんじゅ"
+     }
     },
     {
      "id": "i_6388_004",
@@ -73480,7 +75377,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "さず"
+     }
     }
    ]
   },
@@ -73514,7 +75416,12 @@
        "char": "正",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅうせい"
+     }
     },
     {
      "id": "i_4FEE_002",
@@ -73549,7 +75456,12 @@
        "char": "理",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅうり"
+     }
     },
     {
      "id": "i_4FEE_004",
@@ -73566,7 +75478,12 @@
        "char": "行",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅぎょう"
+     }
     },
     {
      "id": "i_4FEE_005",
@@ -74651,7 +76568,12 @@
        "char": "行",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 4,
+      "reading": "しゅうがくりょこう"
+     }
     },
     {
      "id": "i_4FEE_060",
@@ -74684,7 +76606,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "おさ"
+     }
     }
    ]
   },
@@ -74716,7 +76643,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きじゅつ"
+     }
     },
     {
      "id": "i_8FF0_002",
@@ -75011,7 +76943,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "の"
+     }
     },
     {
      "id": "i_8FF0_018",
@@ -75040,7 +76977,12 @@
        "char": "語",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 2,
+      "reading": "じゅつご"
+     }
     }
    ]
   },
@@ -75072,7 +77014,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぎじゅつ"
+     }
     },
     {
      "id": "i_8853_002",
@@ -75089,7 +77036,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅじゅつ"
+     }
     },
     {
      "id": "i_8853_003",
@@ -75106,7 +77058,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げいじゅつ"
+     }
     },
     {
      "id": "i_8853_004",
@@ -75127,7 +77084,12 @@
        "char": "館",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "びじゅつかん"
+     }
     },
     {
      "id": "i_8853_005",
@@ -75144,7 +77106,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "びじゅつ"
+     }
     },
     {
      "id": "i_8853_006",
@@ -76343,7 +78310,12 @@
        "char": "備",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じゅんび"
+     }
     },
     {
      "id": "i_6E96_002",
@@ -76360,7 +78332,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きじゅん"
+     }
     },
     {
      "id": "i_6E96_003",
@@ -76377,7 +78354,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひょうじゅん"
+     }
     },
     {
      "id": "i_6E96_004",
@@ -76561,7 +78543,12 @@
        "char": "語",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ひょうじゅんご"
+     }
     },
     {
      "id": "i_6E96_013",
@@ -77046,7 +79033,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じゅんじょ"
+     }
     },
     {
      "id": "i_5E8F_002",
@@ -77063,7 +79055,12 @@
        "char": "章",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょしょう"
+     }
     },
     {
      "id": "i_5E8F_003",
@@ -77134,7 +79131,12 @@
        "char": "文",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょぶん"
+     }
     },
     {
      "id": "i_5E8F_007",
@@ -77430,7 +79432,12 @@
        "char": "待",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょうたい"
+     }
     },
     {
      "id": "i_62DB_002",
@@ -77544,7 +79551,12 @@
        "char": "く",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "まね"
+     }
     }
    ]
   },
@@ -77634,7 +79646,12 @@
        "char": "書",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しょうめいしょ"
+     }
     },
     {
      "id": "i_8A3C_005",
@@ -77789,7 +79806,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ほけんしょう"
+     }
     },
     {
      "id": "i_8A3C_013",
@@ -77926,7 +79948,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "がくせいしょう"
+     }
     },
     {
      "id": "i_8A3C_020",
@@ -78598,7 +80625,12 @@
        "char": "明",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 2,
+      "reading": "しょうめい"
+     }
     }
    ]
   },
@@ -78649,7 +80681,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "いんしょう"
+     }
     },
     {
      "id": "i_8C61_003",
@@ -78666,7 +80703,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "げんしょう"
+     }
     },
     {
      "id": "i_8C61_004",
@@ -78829,7 +80871,12 @@
        "char": "台",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "きしょうだい"
+     }
     },
     {
      "id": "i_8C61_012",
@@ -79270,7 +81317,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 4,
+      "length": 1,
+      "reading": "ぞう"
+     }
     },
     {
      "id": "i_8C61_035",
@@ -79299,7 +81351,12 @@
        "char": "う",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きしょう"
+     }
     }
    ]
   },
@@ -79331,7 +81388,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じゅしょう"
+     }
     },
     {
      "id": "i_8CDE_002",
@@ -79384,7 +81446,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "にゅうしょう"
+     }
     },
     {
      "id": "i_8CDE_005",
@@ -79951,7 +82018,12 @@
        "char": "う",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょうひん"
+     }
     },
     {
      "id": "i_8CDE_033",
@@ -79984,7 +82056,12 @@
        "char": "う",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょうじょう"
+     }
     }
    ]
   },
@@ -80019,7 +82096,12 @@
        "char": "件",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょうけん"
+     }
     },
     {
      "id": "i_6761_002",
@@ -80054,7 +82136,12 @@
        "char": "約",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょうやく"
+     }
     },
     {
      "id": "i_6761_004",
@@ -80111,7 +82198,12 @@
        "char": "件",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "むじょうけん"
+     }
     },
     {
      "id": "i_6761_007",
@@ -80645,7 +82737,12 @@
        "char": "態",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょうたい"
+     }
     },
     {
      "id": "i_72B6_002",
@@ -80702,7 +82799,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ねんがじょう"
+     }
     },
     {
      "id": "i_72B6_005",
@@ -80780,7 +82882,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "かんしゃじょう"
+     }
     },
     {
      "id": "i_72B6_009",
@@ -81815,7 +83922,12 @@
        "char": "う",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょうじょう"
+     }
     }
    ]
   },
@@ -81848,7 +83960,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひじょう"
+     }
     },
     {
      "id": "i_5E38_002",
@@ -81883,7 +84000,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "にちじょう"
+     }
     },
     {
      "id": "i_5E38_004",
@@ -81900,7 +84022,12 @@
        "char": "識",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょうしき"
+     }
     },
     {
      "id": "i_5E38_005",
@@ -82457,7 +84584,12 @@
        "char": "食",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ひじょうしょく"
+     }
     },
     {
      "id": "i_5E38_034",
@@ -82554,7 +84686,12 @@
        "char": "口",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ひじょうぐち"
+     }
     },
     {
      "id": "i_5E38_039",
@@ -83196,7 +85333,12 @@
        "char": "に",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "つね"
+     }
     }
    ]
   },
@@ -83229,7 +85371,12 @@
        "char": "報",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょうほう"
+     }
     },
     {
      "id": "i_60C5_002",
@@ -83264,7 +85411,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひょうじょう"
+     }
     },
     {
      "id": "i_60C5_004",
@@ -83281,7 +85433,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かんじょう"
+     }
     },
     {
      "id": "i_60C5_005",
@@ -83298,7 +85455,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "あいじょう"
+     }
     },
     {
      "id": "i_60C5_006",
@@ -83387,7 +85549,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ゆうじょう"
+     }
     },
     {
      "id": "i_60C5_011",
@@ -84754,7 +86921,12 @@
        "char": "い",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "なさ"
+     }
     }
    ]
   },
@@ -84791,7 +86963,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そしき"
+     }
     },
     {
      "id": "i_7E54_002",
@@ -84808,7 +86985,12 @@
        "char": "物",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おりもの"
+     }
     },
     {
      "id": "i_7E54_003",
@@ -85429,7 +87611,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "お"
+     }
     }
    ]
   },
@@ -85478,7 +87665,12 @@
        "char": "員",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょくいん"
+     }
     },
     {
      "id": "i_8077_003",
@@ -85495,7 +87687,12 @@
        "char": "場",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょくば"
+     }
     },
     {
      "id": "i_8077_004",
@@ -85512,7 +87709,12 @@
        "char": "業",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょくぎょう"
+     }
     },
     {
      "id": "i_8077_005",
@@ -85529,7 +87731,12 @@
        "char": "人",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょくにん"
+     }
     },
     {
      "id": "i_8077_006",
@@ -85904,7 +88111,12 @@
        "char": "室",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しょくいんしつ"
+     }
     },
     {
      "id": "i_8077_026",
@@ -87098,7 +89310,12 @@
        "char": "限",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいげん"
+     }
     },
     {
      "id": "i_5236_005",
@@ -87151,7 +89368,12 @@
        "char": "服",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいふく"
+     }
     },
     {
      "id": "i_5236_008",
@@ -88950,7 +91172,12 @@
        "char": "度",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 2,
+      "reading": "せいど"
+     }
     }
    ]
   },
@@ -88983,7 +91210,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょせい"
+     }
     },
     {
      "id": "i_6027_002",
@@ -89004,7 +91236,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "かのうせい"
+     }
     },
     {
      "id": "i_6027_003",
@@ -89021,7 +91258,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "だんせい"
+     }
     },
     {
      "id": "i_6027_004",
@@ -89038,7 +91280,12 @@
        "char": "格",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいかく"
+     }
     },
     {
      "id": "i_6027_005",
@@ -89091,7 +91338,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こせい"
+     }
     },
     {
      "id": "i_6027_008",
@@ -89148,7 +91400,12 @@
        "char": "質",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいしつ"
+     }
     },
     {
      "id": "i_6027_011",
@@ -89165,7 +91422,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "あいしょう"
+     }
     },
     {
      "id": "i_6027_012",
@@ -89306,7 +91568,12 @@
        "char": "別",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいべつ"
+     }
     },
     {
      "id": "i_6027_019",
@@ -89651,7 +91918,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さんせい"
+     }
     },
     {
      "id": "i_6027_036",
@@ -94899,7 +97171,12 @@
        "char": "治",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいじ"
+     }
     },
     {
      "id": "i_653F_002",
@@ -94916,7 +97193,12 @@
        "char": "府",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいふ"
+     }
     },
     {
      "id": "i_653F_003",
@@ -94973,7 +97255,12 @@
        "char": "家",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "せいじか"
+     }
     },
     {
      "id": "i_653F_006",
@@ -96661,7 +98948,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おおぜい"
+     }
     },
     {
      "id": "i_52E2_003",
@@ -97428,7 +99720,12 @@
        "char": "い",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "いきお"
+     }
     },
     {
      "id": "i_52E2_045",
@@ -97461,7 +99758,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいりょく"
+     }
     }
    ]
   },
@@ -97495,7 +99797,12 @@
        "char": "神",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいしん"
+     }
     },
     {
      "id": "i_7CBE_002",
@@ -97664,7 +99971,12 @@
        "char": "米",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいまい"
+     }
     },
     {
      "id": "i_7CBE_011",
@@ -97801,7 +100113,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じゅせい"
+     }
     },
     {
      "id": "i_7CBE_018",
@@ -98784,7 +101101,12 @@
        "char": "品",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいひん"
+     }
     },
     {
      "id": "i_88FD_002",
@@ -98801,7 +101123,12 @@
        "char": "造",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいぞう"
+     }
     },
     {
      "id": "i_88FD_003",
@@ -99014,7 +101341,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "にほんせい"
+     }
     },
     {
      "id": "i_88FD_014",
@@ -99089,7 +101421,12 @@
        "char": "鉄",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいてつ"
+     }
     },
     {
      "id": "i_88FD_018",
@@ -100282,7 +102619,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "もくせい"
+     }
     }
    ]
   },
@@ -100312,7 +102654,12 @@
        "char": "金",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぜいきん"
+     }
     },
     {
      "id": "i_7A0E_002",
@@ -100333,7 +102680,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しょうひぜい"
+     }
     },
     {
      "id": "i_7A0E_003",
@@ -100426,7 +102778,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぞうぜい"
+     }
     },
     {
      "id": "i_7A0E_008",
@@ -101816,7 +104173,12 @@
        "char": "任",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せきにん"
+     }
     },
     {
      "id": "i_8CAC_002",
@@ -101837,7 +104199,12 @@
        "char": "者",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "せきにんしゃ"
+     }
     },
     {
      "id": "i_8CAC_003",
@@ -101898,7 +104265,12 @@
        "char": "感",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "せきにんかん"
+     }
     },
     {
      "id": "i_8CAC_006",
@@ -102173,7 +104545,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "せ"
+     }
     }
    ]
   },
@@ -102221,7 +104598,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいせき"
+     }
     },
     {
      "id": "i_7E3E_003",
@@ -102296,7 +104678,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "こうせいせき"
+     }
     },
     {
      "id": "i_7E3E_007",
@@ -102317,7 +104704,12 @@
        "char": "表",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "せいせきひょう"
+     }
     },
     {
      "id": "i_7E3E_008",
@@ -102430,7 +104822,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ちょくせつ"
+     }
     },
     {
      "id": "i_63A5_002",
@@ -102519,7 +104916,12 @@
        "char": "近",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せっきん"
+     }
     },
     {
      "id": "i_63A5_007",
@@ -102536,7 +104938,12 @@
        "char": "着",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せっちゃく"
+     }
     },
     {
      "id": "i_63A5_008",
@@ -102553,7 +104960,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かんせつ"
+     }
     },
     {
      "id": "i_63A5_009",
@@ -103595,7 +106007,12 @@
        "char": "定",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せってい"
+     }
     },
     {
      "id": "i_8A2D_002",
@@ -103630,7 +106047,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けんせつ"
+     }
     },
     {
      "id": "i_8A2D_004",
@@ -103647,7 +106069,12 @@
        "char": "計",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せっけい"
+     }
     },
     {
      "id": "i_8A2D_005",
@@ -103664,7 +106091,12 @@
        "char": "備",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せつび"
+     }
     },
     {
      "id": "i_8A2D_006",
@@ -104255,7 +106687,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "もう"
+     }
     }
    ]
   },
@@ -104289,7 +106726,12 @@
        "char": "対",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぜったい"
+     }
     },
     {
      "id": "i_7D76_002",
@@ -104440,7 +106882,12 @@
        "char": "調",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ぜっこうちょう"
+     }
     },
     {
      "id": "i_7D76_010",
@@ -104475,7 +106922,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きぜつ"
+     }
     },
     {
      "id": "i_7D76_012",
@@ -105032,7 +107484,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "た"
+     }
     }
    ]
   },
@@ -105062,7 +107519,12 @@
        "char": "父",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そふ"
+     }
     },
     {
      "id": "i_7956_002",
@@ -105079,7 +107541,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せんぞ"
+     }
     },
     {
      "id": "i_7956_003",
@@ -105096,7 +107563,12 @@
        "char": "母",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そぼ"
+     }
     },
     {
      "id": "i_7956_004",
@@ -105149,7 +107621,12 @@
        "char": "先",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そせん"
+     }
     },
     {
      "id": "i_7956_007",
@@ -105634,7 +108111,12 @@
        "char": "直",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "すなお"
+     }
     },
     {
      "id": "i_7D20_004",
@@ -105669,7 +108151,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さんそ"
+     }
     },
     {
      "id": "i_7D20_006",
@@ -105686,7 +108173,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "すいそ"
+     }
     },
     {
      "id": "i_7D20_007",
@@ -105703,7 +108195,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "たんそ"
+     }
     },
     {
      "id": "i_7D20_008",
@@ -105796,7 +108293,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "えいようそ"
+     }
     },
     {
      "id": "i_7D20_013",
@@ -106765,7 +109267,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 5,
+      "reading": "にさんかたんそ"
+     }
     },
     {
      "id": "i_7D20_062",
@@ -106794,7 +109301,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "すなお"
+     }
     }
    ]
   },
@@ -106828,7 +109340,12 @@
        "char": "合",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そうごう"
+     }
     },
     {
      "id": "i_7DCF_002",
@@ -106863,7 +109380,12 @@
        "char": "理",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そうり"
+     }
     },
     {
      "id": "i_7DCF_004",
@@ -107018,7 +109540,12 @@
        "char": "数",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そうすう"
+     }
     },
     {
      "id": "i_7DCF_012",
@@ -107289,7 +109816,12 @@
        "char": "計",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そうけい"
+     }
     },
     {
      "id": "i_7DCF_026",
@@ -108207,7 +110739,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうぞう"
+     }
     },
     {
      "id": "i_9020_002",
@@ -108224,7 +110761,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいぞう"
+     }
     },
     {
      "id": "i_9020_003",
@@ -108259,7 +110801,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "もくぞう"
+     }
     },
     {
      "id": "i_9020_005",
@@ -108414,7 +110961,12 @@
        "char": "船",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぞうせん"
+     }
     },
     {
      "id": "i_9020_013",
@@ -109437,7 +111989,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "つく"
+     }
     }
    ]
   },
@@ -109467,7 +112024,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "がぞう"
+     }
     },
     {
      "id": "i_50CF_002",
@@ -109484,7 +112046,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そうぞう"
+     }
     },
     {
      "id": "i_50CF_003",
@@ -109501,7 +112068,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶつぞう"
+     }
     },
     {
      "id": "i_50CF_004",
@@ -109580,7 +112152,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "どうぞう"
+     }
     },
     {
      "id": "i_50CF_008",
@@ -109735,7 +112312,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "じがぞう"
+     }
     },
     {
      "id": "i_50CF_016",
@@ -110324,7 +112906,12 @@
        "char": "加",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぞうか"
+     }
     },
     {
      "id": "i_5897_002",
@@ -110377,7 +112964,12 @@
        "char": "税",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぞうぜい"
+     }
     },
     {
      "id": "i_5897_005",
@@ -110484,7 +113076,12 @@
        "char": "減",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぞうげん"
+     }
     },
     {
      "id": "i_5897_011",
@@ -111105,7 +113702,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ふ"
+     }
     },
     {
      "id": "i_5897_044",
@@ -111126,7 +113728,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ふ"
+     }
     }
    ]
   },
@@ -111178,7 +113785,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きそく"
+     }
     },
     {
      "id": "i_5247_003",
@@ -111195,7 +113807,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ほうそく"
+     }
     },
     {
      "id": "i_5247_004",
@@ -111212,7 +113829,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はんそく"
+     }
     },
     {
      "id": "i_5247_005",
@@ -111233,7 +113855,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ふきそく"
+     }
     },
     {
      "id": "i_5247_006",
@@ -111344,7 +113971,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうそく"
+     }
     },
     {
      "id": "i_5247_012",
@@ -111822,7 +114454,12 @@
        "char": "定",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そくてい"
+     }
     },
     {
      "id": "i_6E2C_002",
@@ -111839,7 +114476,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "よそく"
+     }
     },
     {
      "id": "i_6E2C_003",
@@ -111856,7 +114498,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かんそく"
+     }
     },
     {
      "id": "i_6E2C_004",
@@ -111891,7 +114538,12 @@
        "char": "量",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そくりょう"
+     }
     },
     {
      "id": "i_6E2C_006",
@@ -112454,7 +115106,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "はか"
+     }
     }
    ]
   },
@@ -112489,7 +115146,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょぞく"
+     }
     },
     {
      "id": "i_5C5E_002",
@@ -112506,7 +115168,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きんぞく"
+     }
     },
     {
      "id": "i_5C5E_003",
@@ -112541,7 +115208,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふぞく"
+     }
     },
     {
      "id": "i_5C5E_005",
@@ -113261,7 +115933,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひりつ"
+     }
     },
     {
      "id": "i_7387_004",
@@ -114040,7 +116717,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "えんしゅうりつ"
+     }
     },
     {
      "id": "i_7387_042",
@@ -114821,7 +117503,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ひき"
+     }
     },
     {
      "id": "i_7387_079",
@@ -114858,7 +117545,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かくりつ"
+     }
     },
     {
      "id": "i_7387_080",
@@ -114887,7 +117579,12 @@
        "char": "い",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうりつ"
+     }
     }
    ]
   },
@@ -114923,7 +117620,12 @@
        "char": "害",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そんがい"
+     }
     },
     {
      "id": "i_640D_002",
@@ -114940,7 +117642,12 @@
        "char": "失",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そんしつ"
+     }
     },
     {
      "id": "i_640D_003",
@@ -115065,7 +117772,12 @@
        "char": "得",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そんとく"
+     }
     },
     {
      "id": "i_640D_010",
@@ -115082,7 +117794,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おおぞん"
+     }
     },
     {
      "id": "i_640D_011",
@@ -115456,7 +118173,12 @@
        "char": "切",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かしきり"
+     }
     },
     {
      "id": "i_8CB8_002",
@@ -115491,7 +118213,12 @@
        "char": "出",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かしだし"
+     }
     },
     {
      "id": "i_8CB8_004",
@@ -115508,7 +118235,12 @@
        "char": "家",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かしや"
+     }
     },
     {
      "id": "i_8CB8_005",
@@ -115833,7 +118565,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "か"
+     }
     }
    ]
   },
@@ -115865,7 +118602,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょうたい"
+     }
     },
     {
      "id": "i_614B_002",
@@ -115882,7 +118624,12 @@
        "char": "度",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "たいど"
+     }
     },
     {
      "id": "i_614B_003",
@@ -116479,7 +119226,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 2,
+      "reading": "せいたい"
+     }
     }
    ]
   },
@@ -116513,7 +119265,12 @@
        "char": "体",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "だんたい"
+     }
     },
     {
      "id": "i_56E3_002",
@@ -116530,7 +119287,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅうだん"
+     }
     },
     {
      "id": "i_56E3_003",
@@ -116547,7 +119309,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふとん"
+     }
     },
     {
      "id": "i_56E3_004",
@@ -116582,7 +119349,12 @@
        "char": "地",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "だんち"
+     }
     },
     {
      "id": "i_56E3_006",
@@ -116711,7 +119483,12 @@
        "char": "結",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "だんけつ"
+     }
     },
     {
      "id": "i_56E3_013",
@@ -117833,7 +120610,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はんだん"
+     }
     },
     {
      "id": "i_65AD_002",
@@ -117886,7 +120668,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おうだん"
+     }
     },
     {
      "id": "i_65AD_005",
@@ -117975,7 +120762,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ゆだん"
+     }
     },
     {
      "id": "i_65AD_010",
@@ -118010,7 +120802,12 @@
        "char": "面",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "だんめん"
+     }
     },
     {
      "id": "i_65AD_012",
@@ -119005,7 +121802,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ことわ"
+     }
     }
    ]
   },
@@ -119037,7 +121839,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "けんちく"
+     }
     },
     {
      "id": "i_7BC9_002",
@@ -119054,7 +121861,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しんちく"
+     }
     },
     {
      "id": "i_7BC9_003",
@@ -119115,7 +121927,12 @@
        "char": "家",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "けんちくか"
+     }
     },
     {
      "id": "i_7BC9_006",
@@ -119494,7 +122311,12 @@
        "char": "く",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "きず"
+     }
     }
    ]
   },
@@ -119527,7 +122349,12 @@
        "char": "金",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ちょきん"
+     }
     },
     {
      "id": "i_8CAF_002",
@@ -119544,7 +122371,12 @@
        "char": "水",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ちょすい"
+     }
     },
     {
      "id": "i_8CAF_003",
@@ -119583,7 +122415,12 @@
        "char": "池",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ちょすいち"
+     }
     },
     {
      "id": "i_8CAF_005",
@@ -119733,7 +122570,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅちょう"
+     }
     },
     {
      "id": "i_5F35_002",
@@ -119750,7 +122592,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅっちょう"
+     }
     },
     {
      "id": "i_5F35_003",
@@ -120307,7 +123154,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "ぱ"
+     }
     }
    ]
   },
@@ -120340,7 +123192,12 @@
        "char": "止",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ていし"
+     }
     },
     {
      "id": "i_505C_002",
@@ -120357,7 +123214,12 @@
        "char": "車",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ていしゃ"
+     }
     },
     {
      "id": "i_505C_003",
@@ -120374,7 +123236,12 @@
        "char": "電",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ていでん"
+     }
     },
     {
      "id": "i_505C_004",
@@ -120413,7 +123280,12 @@
        "char": "所",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ていりゅうじょ"
+     }
     },
     {
      "id": "i_505C_006",
@@ -120777,7 +123649,12 @@
        "char": "案",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ていあん"
+     }
     },
     {
      "id": "i_63D0_002",
@@ -120794,7 +123671,12 @@
        "char": "出",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ていしゅつ"
+     }
     },
     {
      "id": "i_63D0_003",
@@ -121011,7 +123893,12 @@
        "char": "物",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ていしゅつぶつ"
+     }
     },
     {
      "id": "i_63D0_014",
@@ -121160,7 +124047,12 @@
        "char": "度",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ていど"
+     }
     },
     {
      "id": "i_7A0B_002",
@@ -121177,7 +124069,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "にってい"
+     }
     },
     {
      "id": "i_7A0B_003",
@@ -121342,7 +124239,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おんてい"
+     }
     },
     {
      "id": "i_7A0B_012",
@@ -121765,7 +124667,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいてき"
+     }
     },
     {
      "id": "i_9069_003",
@@ -121782,7 +124689,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かいてき"
+     }
     },
     {
      "id": "i_9069_004",
@@ -121799,7 +124711,12 @@
        "char": "切",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "てきせつ"
+     }
     },
     {
      "id": "i_9069_005",
@@ -121816,7 +124733,12 @@
        "char": "当",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "てきとう"
+     }
     },
     {
      "id": "i_9069_006",
@@ -122665,7 +125587,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "でんとう"
+     }
     },
     {
      "id": "i_7D71_002",
@@ -122686,7 +125613,12 @@
        "char": "領",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "だいとうりょう"
+     }
     },
     {
      "id": "i_7D71_003",
@@ -122721,7 +125653,12 @@
        "char": "一",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "とういつ"
+     }
     },
     {
      "id": "i_7D71_005",
@@ -122738,7 +125675,12 @@
        "char": "計",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "とうけい"
+     }
     },
     {
      "id": "i_7D71_006",
@@ -123450,7 +126392,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうどう"
+     }
     },
     {
      "id": "i_5802_004",
@@ -123511,7 +126458,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ぎじどう"
+     }
     },
     {
      "id": "i_5802_007",
@@ -123983,7 +126935,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 2,
+      "reading": "しょくどう"
+     }
     }
    ]
   },
@@ -124015,7 +126972,12 @@
        "char": "像",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "どうぞう"
+     }
     },
     {
      "id": "i_9285_002",
@@ -124032,7 +126994,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいどう"
+     }
     },
     {
      "id": "i_9285_003",
@@ -124049,7 +127016,12 @@
        "char": "山",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "どうざん"
+     }
     },
     {
      "id": "i_9285_004",
@@ -124268,7 +127240,12 @@
        "char": "貨",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "どうか"
+     }
     },
     {
      "id": "i_9285_016",
@@ -124478,7 +127455,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しどう"
+     }
     },
     {
      "id": "i_5C0E_002",
@@ -124495,7 +127477,12 @@
        "char": "入",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "どうにゅう"
+     }
     },
     {
      "id": "i_5C0E_003",
@@ -124556,7 +127543,12 @@
        "char": "体",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "はんどうたい"
+     }
     },
     {
      "id": "i_5C0E_006",
@@ -125245,7 +128237,12 @@
        "char": "く",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "みちび"
+     }
     }
    ]
   },
@@ -125296,7 +128293,12 @@
        "char": "意",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "とくい"
+     }
     },
     {
      "id": "i_5F97_003",
@@ -125331,7 +128333,12 @@
        "char": "点",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "とくてん"
+     }
     },
     {
      "id": "i_5F97_005",
@@ -125348,7 +128355,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せっとく"
+     }
     },
     {
      "id": "i_5F97_006",
@@ -125635,7 +128647,12 @@
        "char": "技",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "とくいわざ"
+     }
     },
     {
      "id": "i_5F97_020",
@@ -125688,7 +128705,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "そんとく"
+     }
     },
     {
      "id": "i_5F97_023",
@@ -126594,7 +129616,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "え"
+     }
     }
    ]
   },
@@ -126624,7 +129651,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょうどく"
+     }
     },
     {
      "id": "i_6BD2_002",
@@ -126641,7 +129673,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ちゅうどく"
+     }
     },
     {
      "id": "i_6BD2_003",
@@ -126773,7 +129810,12 @@
        "char": "液",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しょうどくえき"
+     }
     },
     {
      "id": "i_6BD2_010",
@@ -127536,7 +130578,12 @@
        "char": "立",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "どくりつ"
+     }
     },
     {
      "id": "i_72EC_003",
@@ -127553,7 +130600,12 @@
        "char": "特",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "どくとく"
+     }
     },
     {
      "id": "i_72EC_004",
@@ -127570,7 +130622,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "たんどく"
+     }
     },
     {
      "id": "i_72EC_005",
@@ -128481,7 +131538,12 @@
        "char": "言",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ひと"
+     }
     }
    ]
   },
@@ -128514,7 +131576,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せきにん"
+     }
     },
     {
      "id": "i_4EFB_002",
@@ -128553,7 +131620,12 @@
        "char": "者",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "せきにんしゃ"
+     }
     },
     {
      "id": "i_4EFB_004",
@@ -128776,7 +131848,12 @@
        "char": "感",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "せきにんかん"
+     }
     },
     {
      "id": "i_4EFB_016",
@@ -129653,7 +132730,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "まか"
+     }
     }
    ]
   },
@@ -129687,7 +132769,12 @@
        "char": "料",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ねんりょう"
+     }
     },
     {
      "id": "i_71C3_002",
@@ -129704,7 +132791,12 @@
        "char": "焼",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ねんしょう"
+     }
     },
     {
      "id": "i_71C3_003",
@@ -130009,7 +133101,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "も"
+     }
     },
     {
      "id": "i_71C3_018",
@@ -130030,7 +133127,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "も"
+     }
     }
    ]
   },
@@ -130063,7 +133165,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かのう"
+     }
     },
     {
      "id": "i_80FD_002",
@@ -130080,7 +133187,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "きのう"
+     }
     },
     {
      "id": "i_80FD_003",
@@ -130101,7 +133213,12 @@
        "char": "性",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "かのうせい"
+     }
     },
     {
      "id": "i_80FD_004",
@@ -130118,7 +133235,12 @@
        "char": "力",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "のうりょく"
+     }
     },
     {
      "id": "i_80FD_005",
@@ -130175,7 +133297,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ふかのう"
+     }
     },
     {
      "id": "i_80FD_008",
@@ -130214,7 +133341,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいのう"
+     }
     },
     {
      "id": "i_80FD_010",
@@ -131708,7 +134840,12 @@
        "char": "線",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はせん"
+     }
     },
     {
      "id": "i_7834_017",
@@ -132097,7 +135234,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "やぶ"
+     }
     },
     {
      "id": "i_7834_038",
@@ -132148,7 +135290,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "やぶ"
+     }
     }
    ]
   },
@@ -132181,7 +135328,12 @@
        "char": "罪",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はんざい"
+     }
     },
     {
      "id": "i_72AF_002",
@@ -132198,7 +135350,12 @@
        "char": "人",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はんにん"
+     }
     },
     {
      "id": "i_72AF_003",
@@ -132215,7 +135372,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼうはん"
+     }
     },
     {
      "id": "i_72AF_004",
@@ -133042,7 +136204,12 @@
        "char": "す",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "おか"
+     }
     }
    ]
   },
@@ -133075,7 +136242,12 @@
        "char": "断",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はんだん"
+     }
     },
     {
      "id": "i_5224_002",
@@ -133092,7 +136264,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひょうばん"
+     }
     },
     {
      "id": "i_5224_003",
@@ -133127,7 +136304,12 @@
        "char": "定",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はんてい"
+     }
     },
     {
      "id": "i_5224_005",
@@ -133889,7 +137071,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅっぱん"
+     }
     },
     {
      "id": "i_7248_002",
@@ -133910,7 +137097,12 @@
        "char": "社",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しゅっぱんしゃ"
+     }
     },
     {
      "id": "i_7248_003",
@@ -133967,7 +137159,12 @@
        "char": "画",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はんが"
+     }
     },
     {
      "id": "i_7248_006",
@@ -134851,7 +138048,12 @@
        "char": "率",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひりつ"
+     }
     },
     {
      "id": "i_6BD4_002",
@@ -134868,7 +138070,12 @@
        "char": "例",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひれい"
+     }
     },
     {
      "id": "i_6BD4_003",
@@ -135383,7 +138590,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "くら"
+     }
     }
    ]
   },
@@ -135419,7 +138631,12 @@
        "char": "料",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひりょう"
+     }
     },
     {
      "id": "i_80A5_002",
@@ -135436,7 +138653,12 @@
        "char": "満",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひまん"
+     }
     },
     {
      "id": "i_80A5_003",
@@ -135841,7 +139063,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "こ"
+     }
     }
    ]
   },
@@ -135873,7 +139100,12 @@
        "char": "常",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひじょう"
+     }
     },
     {
      "id": "i_975E_002",
@@ -136310,7 +139542,12 @@
        "char": "食",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ひじょうしょく"
+     }
     },
     {
      "id": "i_975E_023",
@@ -136503,7 +139740,12 @@
        "char": "口",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ひじょうぐち"
+     }
     },
     {
      "id": "i_975E_032",
@@ -136962,7 +140204,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょうひ"
+     }
     },
     {
      "id": "i_8CBB_002",
@@ -136979,7 +140226,12 @@
        "char": "用",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひよう"
+     }
     },
     {
      "id": "i_8CBB_003",
@@ -137000,7 +140252,12 @@
        "char": "者",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しょうひしゃ"
+     }
     },
     {
      "id": "i_8CBB_004",
@@ -137021,7 +140278,12 @@
        "char": "税",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "しょうひぜい"
+     }
     },
     {
      "id": "i_8CBB_005",
@@ -137078,7 +140340,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "こうつうひ"
+     }
     },
     {
      "id": "i_8CBB_008",
@@ -138622,7 +141889,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じゅんび"
+     }
     },
     {
      "id": "i_5099_002",
@@ -138639,7 +141911,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せいび"
+     }
     },
     {
      "id": "i_5099_003",
@@ -138656,7 +141933,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "せつび"
+     }
     },
     {
      "id": "i_5099_004",
@@ -138673,7 +141955,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅび"
+     }
     },
     {
      "id": "i_5099_005",
@@ -139572,7 +142859,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "そな"
+     }
     }
    ]
   },
@@ -139602,7 +142894,12 @@
        "char": "価",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひょうか"
+     }
     },
     {
      "id": "i_8A55_002",
@@ -139619,7 +142916,12 @@
        "char": "判",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひょうばん"
+     }
     },
     {
      "id": "i_8A55_003",
@@ -139636,7 +142938,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こうひょう"
+     }
     },
     {
      "id": "i_8A55_004",
@@ -140317,7 +143624,12 @@
        "char": "血",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひんけつ"
+     }
     },
     {
      "id": "i_8CA7_002",
@@ -140352,7 +143664,12 @@
        "char": "富",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ひんぷ"
+     }
     },
     {
      "id": "i_8CA7_004",
@@ -140659,7 +143976,12 @@
        "char": "い",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "まず"
+     }
     }
    ]
   },
@@ -140694,7 +144016,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はいふ"
+     }
     },
     {
      "id": "i_5E03_002",
@@ -140711,7 +144038,12 @@
        "char": "団",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふとん"
+     }
     },
     {
      "id": "i_5E03_003",
@@ -140728,7 +144060,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶんぷ"
+     }
     },
     {
      "id": "i_5E03_004",
@@ -140745,7 +144082,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さいふ"
+     }
     },
     {
      "id": "i_5E03_005",
@@ -140870,7 +144212,12 @@
        "char": "地",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぬのじ"
+     }
     },
     {
      "id": "i_5E03_012",
@@ -141400,7 +144747,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふうふ"
+     }
     },
     {
      "id": "i_5A66_002",
@@ -141417,7 +144769,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しゅふ"
+     }
     },
     {
      "id": "i_5A66_003",
@@ -141522,7 +144879,12 @@
        "char": "服",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ふじんふく"
+     }
     },
     {
      "id": "i_5A66_008",
@@ -142018,7 +145380,12 @@
        "char": "器",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶき"
+     }
     },
     {
      "id": "i_6B66_002",
@@ -142035,7 +145402,12 @@
        "char": "士",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶし"
+     }
     },
     {
      "id": "i_6B66_003",
@@ -142070,7 +145442,12 @@
        "char": "道",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶどう"
+     }
     },
     {
      "id": "i_6B66_005",
@@ -142123,7 +145500,12 @@
        "char": "者",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "むしゃ"
+     }
     },
     {
      "id": "i_6B66_008",
@@ -142931,7 +146313,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かいふく"
+     }
     },
     {
      "id": "i_5FA9_002",
@@ -142984,7 +146371,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "おうふく"
+     }
     },
     {
      "id": "i_5FA9_005",
@@ -143019,7 +146411,12 @@
        "char": "興",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふっこう"
+     }
     },
     {
      "id": "i_5FA9_007",
@@ -143036,7 +146433,12 @@
        "char": "旧",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふっきゅう"
+     }
     },
     {
      "id": "i_5FA9_008",
@@ -143071,7 +146473,12 @@
        "char": "習",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふくしゅう"
+     }
     },
     {
      "id": "i_5FA9_010",
@@ -143731,7 +147138,12 @@
        "char": "数",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふくすう"
+     }
     },
     {
      "id": "i_8907_002",
@@ -143748,7 +147160,12 @@
        "char": "雑",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふくざつ"
+     }
     },
     {
      "id": "i_8907_003",
@@ -144023,7 +147440,12 @@
        "char": "眼",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふくがん"
+     }
     },
     {
      "id": "i_8907_017",
@@ -144434,7 +147856,12 @@
        "char": "教",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶっきょう"
+     }
     },
     {
      "id": "i_4ECF_002",
@@ -144451,7 +147878,12 @@
        "char": "像",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぶつぞう"
+     }
     },
     {
      "id": "i_4ECF_003",
@@ -144486,7 +147918,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "だいぶつ"
+     }
     },
     {
      "id": "i_4ECF_005",
@@ -145885,7 +149322,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ほとけ"
+     }
     }
    ]
   },
@@ -145919,7 +149361,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "かふん"
+     }
     },
     {
      "id": "i_7C89_002",
@@ -145936,7 +149383,12 @@
        "char": "末",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ふんまつ"
+     }
     },
     {
      "id": "i_7C89_003",
@@ -145957,7 +149409,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "こむぎこ"
+     }
     },
     {
      "id": "i_7C89_004",
@@ -146046,7 +149503,12 @@
        "char": "雪",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "こなゆき"
+     }
     },
     {
      "id": "i_7C89_009",
@@ -146626,7 +150088,12 @@
        "char": "集",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "へんしゅう"
+     }
     },
     {
      "id": "i_7DE8_002",
@@ -147125,7 +150592,12 @@
        "char": "物",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "あみもの"
+     }
     },
     {
      "id": "i_7DE8_028",
@@ -147508,7 +150980,12 @@
        "char": "む",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "あ"
+     }
     }
    ]
   },
@@ -147545,7 +151022,12 @@
        "char": "当",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "べんとう"
+     }
     },
     {
      "id": "i_5F01_002",
@@ -147566,7 +151048,12 @@
        "char": "士",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "べんごし"
+     }
     },
     {
      "id": "i_5F01_003",
@@ -147641,7 +151128,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "かんさいべん"
+     }
     },
     {
      "id": "i_5F01_007",
@@ -147658,7 +151150,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はなびら"
+     }
     },
     {
      "id": "i_5F01_008",
@@ -148671,7 +152168,12 @@
        "char": "護",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ほご"
+     }
     },
     {
      "id": "i_4FDD_003",
@@ -148804,7 +152306,12 @@
        "char": "者",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ほごしゃ"
+     }
     },
     {
      "id": "i_4FDD_010",
@@ -148879,7 +152386,12 @@
        "char": "料",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ほけんりょう"
+     }
     },
     {
      "id": "i_4FDD_014",
@@ -149180,7 +152692,12 @@
        "char": "証",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ほけんしょう"
+     }
     },
     {
      "id": "i_4FDD_029",
@@ -149219,7 +152736,12 @@
        "char": "室",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ほけんしつ"
+     }
     },
     {
      "id": "i_4FDD_031",
@@ -149944,7 +153466,12 @@
        "char": "色",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ほごしょく"
+     }
     },
     {
      "id": "i_4FDD_066",
@@ -150395,7 +153922,12 @@
        "char": "つ",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "たも"
+     }
     },
     {
      "id": "i_4FDD_088",
@@ -150420,7 +153952,12 @@
        "char": "育",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 4,
+      "reading": "ほけんたいいく"
+     }
     }
    ]
   },
@@ -150452,7 +153989,12 @@
        "char": "地",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼち"
+     }
     },
     {
      "id": "i_5893_002",
@@ -150469,7 +154011,12 @@
        "char": "石",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼせき"
+     }
     },
     {
      "id": "i_5893_003",
@@ -150666,7 +154213,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "はか"
+     }
     },
     {
      "id": "i_5893_014",
@@ -150687,7 +154239,12 @@
        "char": "り",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はかまい"
+     }
     }
    ]
   },
@@ -150719,7 +154276,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょうほう"
+     }
     },
     {
      "id": "i_5831_002",
@@ -150736,7 +154298,12 @@
        "char": "告",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ほうこく"
+     }
     },
     {
      "id": "i_5831_003",
@@ -150753,7 +154320,12 @@
        "char": "道",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ほうどう"
+     }
     },
     {
      "id": "i_5831_004",
@@ -150828,7 +154400,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "よほう"
+     }
     },
     {
      "id": "i_5831_008",
@@ -151063,7 +154640,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ちゅういほう"
+     }
     },
     {
      "id": "i_5831_020",
@@ -152111,7 +155693,12 @@
        "char": "富",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ほうふ"
+     }
     },
     {
      "id": "i_8C4A_002",
@@ -152128,7 +155715,12 @@
        "char": "作",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ほうさく"
+     }
     },
     {
      "id": "i_8C4A_003",
@@ -152279,7 +155871,12 @@
        "char": "か",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ゆた"
+     }
     }
    ]
   },
@@ -152311,7 +155908,12 @@
        "char": "止",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼうし"
+     }
     },
     {
      "id": "i_9632_002",
@@ -152328,7 +155930,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "よぼう"
+     }
     },
     {
      "id": "i_9632_003",
@@ -152363,7 +155970,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょうぼう"
+     }
     },
     {
      "id": "i_9632_005",
@@ -152380,7 +155992,12 @@
        "char": "災",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼうさい"
+     }
     },
     {
      "id": "i_9632_006",
@@ -152397,7 +156014,12 @@
        "char": "犯",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼうはん"
+     }
     },
     {
      "id": "i_9632_007",
@@ -153378,7 +157000,12 @@
        "char": "ぐ",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ふせ"
+     }
     }
    ]
   },
@@ -153408,7 +157035,12 @@
        "char": "易",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼうえき"
+     }
     },
     {
      "id": "i_8CBF_002",
@@ -153429,7 +157061,12 @@
        "char": "港",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ぼうえきこう"
+     }
     },
     {
      "id": "i_8CBF_003",
@@ -153532,7 +157169,12 @@
        "char": "力",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼうりょく"
+     }
     },
     {
      "id": "i_66B4_002",
@@ -153549,7 +157191,12 @@
        "char": "走",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼうそう"
+     }
     },
     {
      "id": "i_66B4_003",
@@ -153704,7 +157351,12 @@
        "char": "風",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぼうふう"
+     }
     },
     {
      "id": "i_66B4_011",
@@ -153761,7 +157413,12 @@
        "char": "雨",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ぼうふうう"
+     }
     },
     {
      "id": "i_66B4_014",
@@ -154198,7 +157855,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "あば"
+     }
     }
    ]
   },
@@ -154230,7 +157892,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "どうみゃく"
+     }
     },
     {
      "id": "i_8108_002",
@@ -154247,7 +157914,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "さんみゃく"
+     }
     },
     {
      "id": "i_8108_003",
@@ -154264,7 +157936,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じょうみゃく"
+     }
     },
     {
      "id": "i_8108_004",
@@ -154397,7 +158074,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ようみゃく"
+     }
     },
     {
      "id": "i_8108_011",
@@ -154824,7 +158506,12 @@
        "char": "所",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "じむしょ"
+     }
     },
     {
      "id": "i_52D9_003",
@@ -154841,7 +158528,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "じむ"
+     }
     },
     {
      "id": "i_52D9_004",
@@ -154858,7 +158550,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ぎむ"
+     }
     },
     {
      "id": "i_52D9_005",
@@ -154901,7 +158598,12 @@
        "char": "員",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "こうむいん"
+     }
     },
     {
      "id": "i_52D9_007",
@@ -156660,7 +160362,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 3,
+      "length": 1,
+      "reading": "つと"
+     }
     }
    ]
   },
@@ -156695,7 +160402,12 @@
        "char": "中",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "むちゅう"
+     }
     },
     {
      "id": "i_5922_002",
@@ -156788,7 +160500,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "はつゆめ"
+     }
     },
     {
      "id": "i_5922_007",
@@ -157099,7 +160816,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "ゆめ"
+     }
     }
    ]
   },
@@ -157149,7 +160871,12 @@
        "char": "子",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "まいご"
+     }
     },
     {
      "id": "i_8FF7_003",
@@ -157184,7 +160911,12 @@
        "char": "路",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "めいろ"
+     }
     },
     {
      "id": "i_8FF7_005",
@@ -157219,7 +160951,12 @@
        "char": "信",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "めいしん"
+     }
     },
     {
      "id": "i_8FF7_007",
@@ -157348,7 +161085,12 @@
        "char": "う",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "まよ"
+     }
     }
    ]
   },
@@ -157380,7 +161122,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "もめん"
+     }
     },
     {
      "id": "i_7DBF_002",
@@ -157451,7 +161198,12 @@
        "char": "毛",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "わたげ"
+     }
     },
     {
      "id": "i_7DBF_006",
@@ -157831,7 +161583,12 @@
        "char": "め",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "わた"
+     }
     },
     {
      "id": "i_7DBF_026",
@@ -157844,7 +161601,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "わた"
+     }
     }
    ]
   },
@@ -157875,7 +161637,12 @@
        "char": "入",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ゆにゅう"
+     }
     },
     {
      "id": "i_8F38_002",
@@ -157892,7 +161659,12 @@
        "char": "送",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ゆそう"
+     }
     },
     {
      "id": "i_8F38_003",
@@ -157909,7 +161681,12 @@
        "char": "出",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ゆしゅつ"
+     }
     },
     {
      "id": "i_8F38_004",
@@ -157944,7 +161721,12 @@
        "char": "血",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ゆけつ"
+     }
     },
     {
      "id": "i_8F38_006",
@@ -158513,7 +162295,12 @@
        "char": "計",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "よけい"
+     }
     },
     {
      "id": "i_4F59_002",
@@ -158566,7 +162353,12 @@
        "char": "分",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "よぶん"
+     }
     },
     {
      "id": "i_4F59_005",
@@ -159251,7 +163043,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "あま"
+     }
     },
     {
      "id": "i_4F59_042",
@@ -159268,7 +163065,12 @@
        "char": "り",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 1,
+      "reading": "あま"
+     }
     }
    ]
   },
@@ -159300,7 +163102,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ないよう"
+     }
     },
     {
      "id": "i_5BB9_002",
@@ -159335,7 +163142,12 @@
        "char": "易",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ようい"
+     }
     },
     {
      "id": "i_5BB9_004",
@@ -159352,7 +163164,12 @@
        "char": "量",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ようりょう"
+     }
     },
     {
      "id": "i_5BB9_005",
@@ -159391,7 +163208,12 @@
        "char": "器",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ようき"
+     }
     },
     {
      "id": "i_5BB9_007",
@@ -159546,7 +163368,12 @@
        "char": "積",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "ようせき"
+     }
     },
     {
      "id": "i_5BB9_015",
@@ -160247,7 +164074,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "しょうりゃく"
+     }
     },
     {
      "id": "i_7565_003",
@@ -160358,7 +164190,12 @@
        "char": "語",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "りゃくご"
+     }
     },
     {
      "id": "i_7565_009",
@@ -160487,7 +164324,12 @@
        "char": "図",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "りゃくず"
+     }
     },
     {
      "id": "i_7565_016",
@@ -161032,7 +164874,12 @@
        "char": "学",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "りゅうがく"
+     }
     },
     {
      "id": "i_7559_002",
@@ -161125,7 +164972,12 @@
        "char": "守",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "るす"
+     }
     },
     {
      "id": "i_7559_007",
@@ -161146,7 +164998,12 @@
        "char": "番",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "るすばん"
+     }
     },
     {
      "id": "i_7559_008",
@@ -161167,7 +165024,12 @@
        "char": "所",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "ていりゅうじょ"
+     }
     },
     {
      "id": "i_7559_009",
@@ -161932,7 +165794,12 @@
        "char": "る",
        "grade": null
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 2,
+      "length": 1,
+      "reading": "と"
+     }
     }
    ]
   },
@@ -161968,7 +165835,12 @@
        "grade": 5,
        "isTarget": true
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "だいとうりょう"
+     }
     },
     {
      "id": "i_9818_002",
@@ -162003,7 +165875,12 @@
        "char": "土",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "りょうど"
+     }
     },
     {
      "id": "i_9818_004",
@@ -162074,7 +165951,12 @@
        "char": "地",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "りょうち"
+     }
     },
     {
      "id": "i_9818_008",
@@ -162185,7 +166067,12 @@
        "char": "海",
        "grade": 2
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "りょうかい"
+     }
     },
     {
      "id": "i_9818_014",
@@ -162472,7 +166359,12 @@
        "char": "空",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "りょうくう"
+     }
     },
     {
      "id": "i_9818_028",
@@ -162963,7 +166855,12 @@
        "char": "史",
        "grade": 5
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "れきし"
+     }
     },
     {
      "id": "i_6B74_002",
@@ -162984,7 +166881,12 @@
        "char": "的",
        "grade": 4
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "れきしてき"
+     }
     },
     {
      "id": "i_6B74_003",
@@ -163037,7 +166939,12 @@
        "char": "代",
        "grade": 3
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 2,
+      "reading": "れきだい"
+     }
     },
     {
      "id": "i_6B74_006",
@@ -163765,7 +167672,12 @@
        "char": "上",
        "grade": 1
       }
-     ]
+     ],
+     "readingUnit": {
+      "start": 0,
+      "length": 3,
+      "reading": "れきしじょう"
+     }
     }
    ]
   }
