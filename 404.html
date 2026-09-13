@@ -10,26 +10,37 @@
 		<!-- PWAとしてインストール可能にするために必要。@vite-pwa/sveltekit は SPA 構成では
 		     head へ自動注入しないので手で書く（Service Worker の登録は +layout.svelte 側） -->
 		<link rel="manifest" href="/learning-kanji/manifest.webmanifest" />
-		<link href="/learning-kanji/_app/immutable/entry/start.D3Tkvh9R.js" rel="modulepreload">
-		<link href="/learning-kanji/_app/immutable/chunks/Dbhifcq_.js" rel="modulepreload">
-		<link href="/learning-kanji/_app/immutable/chunks/BN1sVLxU.js" rel="modulepreload">
+		<!-- Issue #18: 字形の設定を最初のペイント前に反映する。SPA なので onMount で
+		     localStorage を読むと初回描画後に字形が入れ替わってしまう。
+		     設定の実体は src/lib/settings/font.ts 側にあり、ここはその前倒し適用だけを行う -->
+		<script>
+			// 既定は教科書体。'default' を明示的に選んだときだけ端末のフォントに戻す
+			var f = 'klee';
+			try {
+				if (localStorage.getItem('kanji-font') === 'default') f = 'default';
+			} catch {}
+			document.documentElement.dataset.font = f;
+		</script>
+		<link href="/learning-kanji/_app/immutable/entry/start.B3Zghc1y.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/iks7q6nU.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/DTHo8EXa.js" rel="modulepreload">
 		<link href="/learning-kanji/_app/immutable/chunks/BuFlayix.js" rel="modulepreload">
-		<link href="/learning-kanji/_app/immutable/entry/app.C5qsyuXq.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/entry/app.DwHevWQ0.js" rel="modulepreload">
 		<link href="/learning-kanji/_app/immutable/chunks/DYl5dUZ5.js" rel="modulepreload">
 		<link href="/learning-kanji/_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
-		<link href="/learning-kanji/_app/immutable/nodes/0.CV0mhEHs.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/nodes/0.t0ZslyxD.js" rel="modulepreload">
 		<link href="/learning-kanji/_app/immutable/chunks/Bc9q1s6W.js" rel="modulepreload">
 		<link href="/learning-kanji/_app/immutable/chunks/Bq1TL_um.js" rel="modulepreload">
-		<link href="/learning-kanji/_app/immutable/chunks/BCwl9uTy.js" rel="modulepreload">
-		<link href="/learning-kanji/_app/immutable/chunks/COztHP2n.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/DKR9XLpe.js" rel="modulepreload">
+		<link href="/learning-kanji/_app/immutable/chunks/BWlaxpm5.js" rel="modulepreload">
 		
-		<link href="/learning-kanji/_app/immutable/assets/0.DSyHh0ru.css" rel="stylesheet">
+		<link href="/learning-kanji/_app/immutable/assets/0.v8lysxqf.css" rel="stylesheet">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_1qjfoft = {
+					__sveltekit_1tdmshi = {
 						base: "/learning-kanji",
 						assets: "/learning-kanji"
 					};
@@ -37,8 +48,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/learning-kanji/_app/immutable/entry/start.D3Tkvh9R.js"),
-						import("/learning-kanji/_app/immutable/entry/app.C5qsyuXq.js")
+						import("/learning-kanji/_app/immutable/entry/start.B3Zghc1y.js"),
+						import("/learning-kanji/_app/immutable/entry/app.DwHevWQ0.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
